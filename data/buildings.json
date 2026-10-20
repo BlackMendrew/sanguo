@@ -98,6 +98,7 @@
     "effects": { "unitCost": { "cavalry": -0.10 }, "unitAttack": { "cavalry": 0.10 } } },
 
   { "id": "recruitment_hall", "name": "招贤馆", "cat": "function", "repeatable": true,
+    "desc": "每座 +1 次招贤/旬、招中概率 +8%、强将权重 +15%，最多 5 座",
     "cost": { "wood": 50, "gold": 100 }, "req": [],
     "gen": [{ "type": "unlock", "id": "heroRecruit" }] },
 

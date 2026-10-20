@@ -51,7 +51,8 @@
     "effects": { "unitDefense": { "heavy": 0.15 } } },
   { "id": "louchuan",     "name": "楼船",   "tree": "military", "cost": 1200, "req": ["shuizhan"],
     "effects": { "shipAttack": 0.15 } },
-  { "id": "wuku",         "name": "武库",   "tree": "military", "cost": 2500, "req": ["gongcheng", "lianbing"] },
+  { "id": "wuku",         "name": "武库",   "tree": "military", "cost": 2500, "req": ["gongcheng", "lianbing"],
+    "effects": { "armyAttack": 0.05, "armyDefense": 0.05 } },
 
   { "id": "chihou",       "name": "斥候",   "tree": "strategy", "cost": 100,  "req": [],
     "effects": { "siegeBonus": { "wall": -0.05 } } },
@@ -89,5 +90,6 @@
     "effects": { "laborLossReduce": 0.50 } },
   { "id": "juxiaolian",   "name": "举孝廉", "tree": "strategy", "cost": 1200, "req": ["jujian"],
     "effects": { "prestigePerTurn": 5, "heroRecruitBonus": 0.15 } },
-  { "id": "wangzuo",      "name": "王佐",   "tree": "strategy", "cost": 2500, "req": ["zhaoxiang", "lvling"] }
+  { "id": "wangzuo",      "name": "王佐",   "tree": "strategy", "cost": 2500, "req": ["zhaoxiang", "lvling"],
+    "effects": { "prestigePerTurn": 2, "unrestReduce": 0.1 } }
 ]
