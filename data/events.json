@@ -1,0 +1,664 @@
+[
+  {
+    "id": "refugees", "title": "流民来投", "kind": "opportunity", "weight": 20,
+    "text": "连年兵灾，数千流民携老扶幼来到城下，请求入籍。",
+    "scope": "city", "expireTurns": 3, "defaultChoice": 1,
+    "choices": [
+      { "label": "接纳（劳力 +30，耗粮 200）",
+        "gen": [{ "type": "labor", "value": 30 }, { "type": "res", "id": "food", "value": -200 }] },
+      { "label": "驱散（威望 −5）",
+        "gen": [{ "type": "prestige", "value": -5 }] }
+    ]
+  },
+  {
+    "id": "harvest_bounty", "title": "秋收有余", "kind": "opportunity", "weight": 14,
+    "text": "今年风调雨顺，仓中余粮甚多，乡老请分予贫户。",
+    "scope": "city", "expireTurns": 3, "defaultChoice": 1,
+    "choices": [
+      { "label": "尽收官仓（粮 +400）",
+        "gen": [{ "type": "res", "id": "food", "value": 400 }] },
+      { "label": "分予乡里（威望 +3）",
+        "gen": [{ "type": "prestige", "value": 3 }] }
+    ]
+  },
+  {
+    "id": "timber_merchant", "title": "木商贩木", "kind": "opportunity", "weight": 12,
+    "text": "山中木商运来大批材木，愿折价售与官府。",
+    "scope": "faction", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "买木 600（铜钱 −300，木 +600）",
+        "gen": [{ "type": "res", "id": "gold", "value": -300 }, { "type": "res", "id": "wood", "value": 600 }] },
+      { "label": "不买",
+        "gen": [] }
+    ]
+  },
+  {
+    "id": "iron_deal", "title": "铁料交易", "kind": "opportunity", "weight": 10,
+    "text": "有商贾自矿冶之乡而来，车载生铁求售。",
+    "scope": "faction", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "买铁 300（铜钱 −400，铁 +300）",
+        "gen": [{ "type": "res", "id": "gold", "value": -400 }, { "type": "res", "id": "iron", "value": 300 }] },
+      { "label": "不买",
+        "gen": [] }
+    ]
+  },
+  {
+    "id": "stone_vein", "title": "采石新脉", "kind": "opportunity", "weight": 10,
+    "text": "工匠在近山探得一处好石脉，开采可济筑城之需。",
+    "scope": "city", "expireTurns": 3, "defaultChoice": 1,
+    "choices": [
+      { "label": "征发民夫开凿（粮 −200，石 +400）",
+        "gen": [{ "type": "res", "id": "food", "value": -200 }, { "type": "res", "id": "stone", "value": 400 }] },
+      { "label": "暂且不动工",
+        "gen": [] }
+    ]
+  },
+  {
+    "id": "artisan_influx", "title": "匠户入籍", "kind": "opportunity", "weight": 12,
+    "text": "邻郡战乱，数百户工匠携家带口求入本城匠籍。",
+    "scope": "city", "expireTurns": 3, "defaultChoice": 1,
+    "choices": [
+      { "label": "编入匠籍（粮 −150，劳力 +12）",
+        "gen": [{ "type": "res", "id": "food", "value": -150 }, { "type": "labor", "value": 12 }] },
+      { "label": "遣散出境（威望 −2）",
+        "gen": [{ "type": "prestige", "value": -2 }] }
+    ]
+  },
+  {
+    "id": "veteran_band", "title": "老兵归附", "kind": "opportunity", "weight": 10,
+    "text": "一队解甲老兵流落境内，愿为官府效命。",
+    "scope": "city", "expireTurns": 3, "defaultChoice": 1,
+    "choices": [
+      { "label": "收编安置（粮 −250，威望 +3）",
+        "gen": [{ "type": "res", "id": "food", "value": -250 }, { "type": "prestige", "value": 3 }] },
+      { "label": "遣散归乡",
+        "gen": [] }
+    ]
+  },
+  {
+    "id": "famous_steed", "title": "名驹相赠", "kind": "opportunity", "weight": 8,
+    "text": "有豪杰慕名而来，以一匹名驹相赠，意在结好。",
+    "scope": "faction", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "厚谢来使（铜钱 −200，威望 +4）",
+        "gen": [{ "type": "res", "id": "gold", "value": -200 }, { "type": "prestige", "value": 4 }] },
+      { "label": "婉言相拒",
+        "gen": [] }
+    ]
+  },
+  {
+    "id": "ancient_books", "title": "古籍入手", "kind": "opportunity", "weight": 9,
+    "text": "书贾携一批先秦竹简入城，索价甚昂，学子们争相传观。",
+    "scope": "faction", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "购下入府（铜钱 −250，研究点 +300）",
+        "gen": [{ "type": "res", "id": "gold", "value": -250 }, { "type": "res", "id": "research", "value": 300 }] },
+      { "label": "不购",
+        "gen": [] }
+    ]
+  },
+  {
+    "id": "salt_merchant", "title": "盐商投献", "kind": "opportunity", "weight": 10,
+    "text": "大盐商求见，愿献一笔厚资，只求官府默许其专营之利。",
+    "scope": "faction", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "纳其献（铜钱 +500，威望 −1）",
+        "gen": [{ "type": "res", "id": "gold", "value": 500 }, { "type": "prestige", "value": -1 }] },
+      { "label": "却之（信誉 +2）",
+        "gen": [{ "type": "credit", "value": 2 }] }
+    ]
+  },
+  {
+    "id": "horse_market", "title": "马市大开", "kind": "opportunity", "weight": 10,
+    "text": "边地马市开张，骏马成群，正是扩充骑军之机。",
+    "scope": "faction", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "购马（铜钱 −600，铁 +400）",
+        "gen": [{ "type": "res", "id": "gold", "value": -600 }, { "type": "res", "id": "iron", "value": 400 }] },
+      { "label": "不买",
+        "gen": [] }
+    ]
+  },
+  {
+    "id": "great_scholar", "title": "大儒讲学", "kind": "opportunity", "weight": 9,
+    "text": "一位大儒游历至此，愿开坛讲学，士人云集。",
+    "scope": "faction", "expireTurns": 3, "defaultChoice": 1,
+    "choices": [
+      { "label": "设坛供养（铜钱 −300，研究点 +400）",
+        "gen": [{ "type": "res", "id": "gold", "value": -300 }, { "type": "res", "id": "research", "value": 400 }] },
+      { "label": "谢绝",
+        "gen": [] }
+    ]
+  },
+  {
+    "id": "righteous_volunteer", "title": "义士来投", "kind": "opportunity", "weight": 9,
+    "text": "一介布衣携剑求见，自言愿为麾下驱驰。",
+    "scope": "faction", "expireTurns": 3, "defaultChoice": 1,
+    "choices": [
+      { "label": "延为上宾（威望 +3，信誉 +3）",
+        "gen": [{ "type": "prestige", "value": 3 }, { "type": "credit", "value": 3 }] },
+      { "label": "闭门不见",
+        "gen": [] }
+    ]
+  },
+  {
+    "id": "battlefield_salvage", "title": "战场遗械", "kind": "opportunity", "weight": 10,
+    "text": "旧战场上新雨冲刷，露出大批弃置兵甲，尚可修复。",
+    "scope": "city", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "收拢入库（粮 −100，军械 +200）",
+        "gen": [{ "type": "res", "id": "food", "value": -100 }, { "type": "res", "id": "arms", "value": 200 }] },
+      { "label": "弃之不顾",
+        "gen": [] }
+    ]
+  },
+  {
+    "id": "land_reclaim", "title": "流民垦荒", "kind": "opportunity", "weight": 12,
+    "text": "城外荒地甚广，流民恳请给田给种，世代为农。",
+    "scope": "city", "expireTurns": 3, "defaultChoice": 1,
+    "choices": [
+      { "label": "给田给种（粮 −250，劳力 +20）",
+        "gen": [{ "type": "res", "id": "food", "value": -250 }, { "type": "labor", "value": 20 }] },
+      { "label": "不予（威望 −2）",
+        "gen": [{ "type": "prestige", "value": -2 }] }
+    ]
+  },
+  {
+    "id": "trade_route", "title": "商路开辟", "kind": "opportunity", "weight": 10,
+    "text": "有商帮愿出资开辟一条新商道，只求官府沿途保护。",
+    "scope": "faction", "expireTurns": 3, "defaultChoice": 1,
+    "choices": [
+      { "label": "开市通商（粮 −200，铜钱 +600）",
+        "gen": [{ "type": "res", "id": "food", "value": -200 }, { "type": "res", "id": "gold", "value": 600 }] },
+      { "label": "不通行",
+        "gen": [] }
+    ]
+  },
+  {
+    "id": "craftsmen_guild", "title": "百工结社", "kind": "opportunity", "weight": 9,
+    "text": "城中百工结社，愿为官府赶造军械，只求官给钱粮。",
+    "scope": "city", "expireTurns": 3, "defaultChoice": 1,
+    "choices": [
+      { "label": "官给钱粮（铜钱 −250，粮 −150，军械 +250）",
+        "gen": [{ "type": "res", "id": "gold", "value": -250 }, { "type": "res", "id": "food", "value": -150 },
+                { "type": "res", "id": "arms", "value": 250 }] },
+      { "label": "听其自便",
+        "gen": [] }
+    ]
+  },
+  {
+    "id": "boat_guild", "title": "江上船帮", "kind": "opportunity", "weight": 8,
+    "text": "江上船帮势力渐大，帮主遣人求见，愿受招抚。",
+    "scope": "city", "expireTurns": 3, "defaultChoice": 1,
+    "choices": [
+      { "label": "招抚船帮（铜钱 −200，粮 −100，威望 +2）",
+        "gen": [{ "type": "res", "id": "gold", "value": -200 }, { "type": "res", "id": "food", "value": -100 },
+                { "type": "prestige", "value": 2 }] },
+      { "label": "驱逐出境",
+        "gen": [] }
+    ]
+  },
+  {
+    "id": "neighbor_gift", "title": "邻邦馈赠", "kind": "opportunity", "weight": 8,
+    "text": "邻邦遣使送来粮钱，名为修好，实则试探。",
+    "scope": "faction", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "受之（粮 +400，铜钱 +300，信誉 −1）",
+        "gen": [{ "type": "res", "id": "food", "value": 400 }, { "type": "res", "id": "gold", "value": 300 },
+                { "type": "credit", "value": -1 }] },
+      { "label": "却之（信誉 +2）",
+        "gen": [{ "type": "credit", "value": 2 }] }
+    ]
+  },
+  {
+    "id": "talent_recommend", "title": "举荐贤才", "kind": "opportunity", "weight": 9,
+    "text": "故交来信，举荐一位素有才名的贤士，请以厚币相迎。",
+    "scope": "faction", "expireTurns": 3, "defaultChoice": 1,
+    "choices": [
+      { "label": "厚币迎之（铜钱 −200，信誉 +3，威望 +2）",
+        "gen": [{ "type": "res", "id": "gold", "value": -200 }, { "type": "credit", "value": 3 },
+                { "type": "prestige", "value": 2 }] },
+      { "label": "谢绝",
+        "gen": [] }
+    ]
+  },
+  {
+    "id": "grain_purchase", "title": "军粮征购", "kind": "opportunity", "weight": 12,
+    "text": "邻境歉收，官仓遣人高价来购军粮。",
+    "scope": "faction", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "售粮 500（粮 −500，铜钱 +700）",
+        "gen": [{ "type": "res", "id": "food", "value": -500 }, { "type": "res", "id": "gold", "value": 700 }] },
+      { "label": "不卖",
+        "gen": [] }
+    ]
+  },
+  {
+    "id": "scholar_visit", "title": "名士来访", "kind": "opportunity", "weight": 15,
+    "text": "一位名士途经此地，言谈间颇有见识。左右劝你重礼挽留。",
+    "scope": "faction", "expireTurns": 3, "defaultChoice": 1,
+    "choices": [
+      { "label": "厚礼挽留（铜钱 −300，威望 +5）",
+        "gen": [{ "type": "res", "id": "gold", "value": -300 }, { "type": "prestige", "value": 5 }] },
+      { "label": "以礼相送",
+        "gen": [] }
+    ]
+  },
+  {
+    "id": "caravan", "title": "商队求购", "kind": "opportunity", "weight": 20,
+    "text": "关中商队愿以高价收购军粮。",
+    "scope": "faction", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "售粮 500（铜钱 +800）",
+        "gen": [{ "type": "res", "id": "food", "value": -500 }, { "type": "res", "id": "gold", "value": 800 }] },
+      { "label": "不卖",
+        "gen": [] }
+    ]
+  },
+  {
+    "id": "fine_horses", "title": "良马贩至", "kind": "opportunity", "weight": 12,
+    "text": "北地马贩赶着数百匹骏马入城，索价不菲。",
+    "scope": "faction", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "买下（铜钱 −400，铁 +300）",
+        "gen": [{ "type": "res", "id": "gold", "value": -400 }, { "type": "res", "id": "iron", "value": 300 }] },
+      { "label": "不买",
+        "gen": [] }
+    ]
+  },
+
+  {
+    "id": "food_shortage", "title": "粮草告急", "kind": "warning", "weight": 15,
+    "text": "仓中存粮已不足支应旬日之需，军心浮动。",
+    "scope": "city", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "开仓粜买（铜钱 −300，粮 +500）",
+        "gen": [{ "type": "res", "id": "gold", "value": -300 }, { "type": "res", "id": "food", "value": 500 }] },
+      { "label": "节用度日（威望 −2）",
+        "gen": [{ "type": "prestige", "value": -2 }] }
+    ]
+  },
+  {
+    "id": "treasury_low", "title": "库钱将尽", "kind": "warning", "weight": 12,
+    "text": "府库铜钱日减，百工与军饷皆待支出。",
+    "scope": "city", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "加征商税（铜钱 +400，内乱 +8）",
+        "gen": [{ "type": "res", "id": "gold", "value": 400 }, { "type": "unrest", "value": 8 }] },
+      { "label": "裁减用度（威望 −2）",
+        "gen": [{ "type": "prestige", "value": -2 }] }
+    ]
+  },
+  {
+    "id": "unrest_rising", "title": "民心浮动", "kind": "warning", "weight": 15,
+    "text": "市井流言四起，百姓怨声渐多，恐生变故。",
+    "scope": "city", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "开仓赈济（粮 −400，内乱 −20）",
+        "gen": [{ "type": "res", "id": "food", "value": -400 }, { "type": "unrest", "value": -20 }] },
+      { "label": "严刑弹压（威望 −3，内乱 −5）",
+        "gen": [{ "type": "prestige", "value": -3 }, { "type": "unrest", "value": -5 }] }
+    ]
+  },
+  {
+    "id": "defense_delapidated", "title": "城防失修", "kind": "warning", "weight": 12,
+    "text": "城垣多处倾颓，斥候报称外敌已窥我虚实。",
+    "scope": "city", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "征夫修缮（铜钱 −200，城防 +15）",
+        "gen": [{ "type": "res", "id": "gold", "value": -200 }, { "type": "defense", "value": 15 }] },
+      { "label": "暂且缓办（内乱 +4）",
+        "gen": [{ "type": "unrest", "value": 4 }] }
+    ]
+  },
+  {
+    "id": "granary_empty", "title": "仓廪见底", "kind": "warning", "weight": 12,
+    "text": "仓廪官禀报存粮将尽，若不早作打算，恐误军食。",
+    "scope": "city", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "购粮入仓（铜钱 −350，粮 +450）",
+        "gen": [{ "type": "res", "id": "gold", "value": -350 }, { "type": "res", "id": "food", "value": 450 }] },
+      { "label": "听之任之（威望 −2）",
+        "gen": [{ "type": "prestige", "value": -2 }] }
+    ]
+  },
+  {
+    "id": "border_friction", "title": "边境摩擦", "kind": "warning", "weight": 12,
+    "text": "边境上两军斥候时有冲突，战端或在一线之间。",
+    "scope": "city", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "增兵戒备（铜钱 −150，城防 +10）",
+        "gen": [{ "type": "res", "id": "gold", "value": -150 }, { "type": "defense", "value": 10 }] },
+      { "label": "视而不见（威望 −2）",
+        "gen": [{ "type": "prestige", "value": -2 }] }
+    ]
+  },
+  {
+    "id": "spy_report", "title": "细作密报", "kind": "warning", "weight": 10,
+    "text": "细作回报：城中有人私通外敌，往来颇为可疑。",
+    "scope": "city", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "彻查到底（铜钱 −100，信誉 +2，内乱 −5）",
+        "gen": [{ "type": "res", "id": "gold", "value": -100 }, { "type": "credit", "value": 2 },
+                { "type": "unrest", "value": -5 }] },
+      { "label": "不予深究（内乱 +5）",
+        "gen": [{ "type": "unrest", "value": 5 }] }
+    ]
+  },
+  {
+    "id": "arms_short", "title": "军械不足", "kind": "warning", "weight": 10,
+    "text": "军中报称甲械短缺，新募之卒多徒手待装。",
+    "scope": "city", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "赶造补充（铁 −200，军械 +300）",
+        "gen": [{ "type": "res", "id": "iron", "value": -200 }, { "type": "res", "id": "arms", "value": 300 }] },
+      { "label": "暂且缓办（威望 −1）",
+        "gen": [{ "type": "prestige", "value": -1 }] }
+    ]
+  },
+  {
+    "id": "desertion", "title": "逃兵渐多", "kind": "warning", "weight": 10,
+    "text": "军中久不发饷，士卒逃亡者日众，营伍渐虚。",
+    "scope": "city", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "补发军饷（铜钱 −250，内乱 −10）",
+        "gen": [{ "type": "res", "id": "gold", "value": -250 }, { "type": "unrest", "value": -10 }] },
+      { "label": "严刑立威（威望 −3，内乱 −5）",
+        "gen": [{ "type": "prestige", "value": -3 }, { "type": "unrest", "value": -5 }] }
+    ]
+  },
+  {
+    "id": "supply_threat", "title": "粮道受胁", "kind": "warning", "weight": 10,
+    "text": "运粮要道附近出现股匪游骑，粮车数日未至。",
+    "scope": "city", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "派兵护送（铜钱 −200，城防 +8）",
+        "gen": [{ "type": "res", "id": "gold", "value": -200 }, { "type": "defense", "value": 8 }] },
+      { "label": "冒险如常（粮 −200）",
+        "gen": [{ "type": "res", "id": "food", "value": -200 }] }
+    ]
+  },
+  {
+    "id": "winter_coming", "title": "寒冬将至", "kind": "warning", "weight": 10,
+    "text": "霜降已过，严冬将至，城中薪炭与口粮尚未备齐。",
+    "scope": "city", "expireTurns": 3, "defaultChoice": 1,
+    "choices": [
+      { "label": "备办薪炭（粮 −200，内乱 −8）",
+        "gen": [{ "type": "res", "id": "food", "value": -200 }, { "type": "unrest", "value": -8 }] },
+      { "label": "强征于民（粮 +150，内乱 +10）",
+        "gen": [{ "type": "res", "id": "food", "value": 150 }, { "type": "unrest", "value": 10 }] }
+    ]
+  },
+  {
+    "id": "border_report", "title": "边报汇总", "kind": "warning", "weight": 9,
+    "text": "诸城边报已汇总案头：各处关隘无事，唯需勤加斥候。",
+    "scope": "city", "expireTurns": 3, "defaultChoice": 0,
+    "choices": [
+      { "label": "知道了",
+        "gen": [] }
+    ]
+  },
+  {
+    "id": "ledger_report", "title": "岁入清册", "kind": "warning", "weight": 9,
+    "text": "户曹呈上岁入清册，粮钱木石皆有定额，请将军过目。",
+    "scope": "city", "expireTurns": 3, "defaultChoice": 0,
+    "choices": [
+      { "label": "存档备查",
+        "gen": [] }
+    ]
+  },
+
+  {
+    "id": "alliance_offer", "title": "遣使求盟", "kind": "world", "weight": 0,
+    "text": "邻邦遣使前来，欲与你共拒强敌，缔结盟约。",
+    "scope": "faction", "expireTurns": 3, "defaultChoice": 1,
+    "choices": [
+      { "label": "缔结盟约（威望 +3，信誉 +5）",
+        "gen": [{ "type": "prestige", "value": 3 }, { "type": "credit", "value": 5 }] },
+      { "label": "婉言谢绝（信誉 −2）",
+        "gen": [{ "type": "credit", "value": -2 }] }
+    ]
+  },
+  {
+    "id": "neighbor_annex", "title": "邻邦兼并", "kind": "world", "weight": 8,
+    "text": "细作来报：邻境强藩出兵吞并了一座小城，声势更盛。",
+    "scope": "faction", "expireTurns": 3, "defaultChoice": 0,
+    "choices": [
+      { "label": "已知晓",
+        "gen": [] }
+    ]
+  },
+  {
+    "id": "war_nearby", "title": "邻邦交兵", "kind": "world", "weight": 8,
+    "text": "两路诸侯在境外大打出手，兵锋距我边境不过百里。",
+    "scope": "faction", "expireTurns": 3, "defaultChoice": 0,
+    "choices": [
+      { "label": "知晓了",
+        "gen": [] }
+    ]
+  },
+  {
+    "id": "city_annexed_far", "title": "远方城陷", "kind": "world", "weight": 7,
+    "text": "远方一座坚城在围攻月余后陷落，守将自刎，天下侧目。",
+    "scope": "faction", "expireTurns": 3, "defaultChoice": 0,
+    "choices": [
+      { "label": "记录在案",
+        "gen": [] }
+    ]
+  },
+  {
+    "id": "great_power", "title": "强邻崛起", "kind": "world", "weight": 7,
+    "text": "北方一势力连下数城，隐然已有争雄之势，诸方皆侧目。",
+    "scope": "faction", "expireTurns": 3, "defaultChoice": 0,
+    "choices": [
+      { "label": "知道了",
+        "gen": [] }
+    ]
+  },
+  {
+    "id": "envoy_praise", "title": "遣使通好", "kind": "world", "weight": 9,
+    "text": "邻邦遣使奉书，言辞谦恭，意在探我虚实、结我欢心。",
+    "scope": "faction", "expireTurns": 3, "defaultChoice": 1,
+    "choices": [
+      { "label": "厚礼回报（铜钱 −200，信誉 +3）",
+        "gen": [{ "type": "res", "id": "gold", "value": -200 }, { "type": "credit", "value": 3 }] },
+      { "label": "薄礼相待（信誉 −1）",
+        "gen": [{ "type": "credit", "value": -1 }] }
+    ]
+  },
+  {
+    "id": "hostage_offer", "title": "质子来请", "kind": "world", "weight": 8,
+    "text": "一势力愿遣子弟为质，求两国通好，永不侵扰。",
+    "scope": "faction", "expireTurns": 3, "defaultChoice": 1,
+    "choices": [
+      { "label": "纳质通好（威望 +3，信誉 +2）",
+        "gen": [{ "type": "prestige", "value": 3 }, { "type": "credit", "value": 2 }] },
+      { "label": "却之不受（信誉 −3）",
+        "gen": [{ "type": "credit", "value": -3 }] }
+    ]
+  },
+  {
+    "id": "alliance_summit", "title": "会盟之邀", "kind": "world", "weight": 9,
+    "text": "诸侯会盟于中道，邀你共赴，欲推一人为盟主。",
+    "scope": "faction", "expireTurns": 3, "defaultChoice": 1,
+    "choices": [
+      { "label": "赴会（铜钱 −250，威望 +2，信誉 +3）",
+        "gen": [{ "type": "res", "id": "gold", "value": -250 }, { "type": "prestige", "value": 2 },
+                { "type": "credit", "value": 3 }] },
+      { "label": "托辞不去（信誉 −2）",
+        "gen": [{ "type": "credit", "value": -2 }] }
+    ]
+  },
+  {
+    "id": "old_ally_help", "title": "故交求援", "kind": "world", "weight": 9,
+    "text": "旧日盟友遣使告急，粮尽兵疲，乞我济以军粮。",
+    "scope": "faction", "expireTurns": 3, "defaultChoice": 1,
+    "choices": [
+      { "label": "助粮 500（粮 −500，信誉 +6）",
+        "gen": [{ "type": "res", "id": "food", "value": -500 }, { "type": "credit", "value": 6 }] },
+      { "label": "婉言推辞（信誉 −4）",
+        "gen": [{ "type": "credit", "value": -4 }] }
+    ]
+  },
+  {
+    "id": "nobles_south", "title": "士族南迁", "kind": "world", "weight": 8,
+    "text": "北方士族举族南迁，途经我境，愿择地而居。",
+    "scope": "faction", "expireTurns": 3, "defaultChoice": 1,
+    "choices": [
+      { "label": "安置境内（铜钱 −300，威望 +4，劳力 +10）",
+        "gen": [{ "type": "res", "id": "gold", "value": -300 }, { "type": "prestige", "value": 4 },
+                { "type": "labor", "value": 10 }] },
+      { "label": "闭门不纳（威望 −3）",
+        "gen": [{ "type": "prestige", "value": -3 }] }
+    ]
+  },
+  {
+    "id": "barbarian_horses", "title": "异族贡马", "kind": "world", "weight": 8,
+    "text": "塞外异族遣使入贡，献上骏马百匹，求开边市。",
+    "scope": "faction", "expireTurns": 3, "defaultChoice": 1,
+    "choices": [
+      { "label": "回赐并开市（铜钱 −250，铁 +300）",
+        "gen": [{ "type": "res", "id": "gold", "value": -250 }, { "type": "res", "id": "iron", "value": 300 }] },
+      { "label": "却贡闭关（信誉 −1）",
+        "gen": [{ "type": "credit", "value": -1 }] }
+    ]
+  },
+  {
+    "id": "city_surrender", "title": "小城请降", "kind": "world", "weight": 8,
+    "text": "前线一座小城守将遣人密议，愿举城归附，只求保全军民。",
+    "scope": "city", "expireTurns": 3, "defaultChoice": 1,
+    "choices": [
+      { "label": "受降安民（粮 −300，威望 +5，信誉 +3）",
+        "gen": [{ "type": "res", "id": "food", "value": -300 }, { "type": "prestige", "value": 5 },
+                { "type": "credit", "value": 3 }] },
+      { "label": "疑其有诈（内乱 +5）",
+        "gen": [{ "type": "unrest", "value": 5 }] }
+    ]
+  },
+  {
+    "id": "rebellion", "title": "地方叛乱", "kind": "rebel", "weight": 15,
+    "text": "新附之地人心未定，豪强聚众据坞自守，不服调遣。",
+    "scope": "city", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "发兵镇压（铜钱 −100，威望 +2，叛乱平息）",
+        "gen": [{ "type": "res", "id": "gold", "value": -100 }, { "type": "prestige", "value": 2 },
+                { "type": "unrest", "value": -30 }] },
+      { "label": "暂且姑息（威望 −3，叛乱加剧）",
+        "gen": [{ "type": "prestige", "value": -3 }, { "type": "unrest", "value": 15 }] }
+    ]
+  },
+  {
+    "id": "local_tyrant", "title": "豪强割据", "kind": "rebel", "weight": 12,
+    "text": "地方豪强结寨自守，隐匿丁口，赋税不入官府。",
+    "scope": "city", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "发兵讨平（铜钱 −150，威望 +2，内乱 −25）",
+        "gen": [{ "type": "res", "id": "gold", "value": -150 }, { "type": "prestige", "value": 2 },
+                { "type": "unrest", "value": -25 }] },
+      { "label": "暂且姑息（内乱 +12）",
+        "gen": [{ "type": "unrest", "value": 12 }] }
+    ]
+  },
+  {
+    "id": "garrison_mutiny", "title": "军中哗变", "kind": "rebel", "weight": 12,
+    "text": "守军数旬未得犒赏，鼓噪于营中，几近哗变。",
+    "scope": "city", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "发饷安抚（铜钱 −300，内乱 −20）",
+        "gen": [{ "type": "res", "id": "gold", "value": -300 }, { "type": "unrest", "value": -20 }] },
+      { "label": "强力弹压（威望 −3，内乱 −10）",
+        "gen": [{ "type": "prestige", "value": -3 }, { "type": "unrest", "value": -10 }] }
+    ]
+  },
+  {
+    "id": "tax_revolt", "title": "抗税民变", "kind": "rebel", "weight": 12,
+    "text": "今岁赋敛过重，乡民聚众抗税，焚毁税吏车马。",
+    "scope": "city", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "减税安民（铜钱 −200，威望 +2，内乱 −18）",
+        "gen": [{ "type": "res", "id": "gold", "value": -200 }, { "type": "prestige", "value": 2 },
+                { "type": "unrest", "value": -18 }] },
+      { "label": "强行征收（铜钱 +250，内乱 +10）",
+        "gen": [{ "type": "res", "id": "gold", "value": 250 }, { "type": "unrest", "value": 10 }] }
+    ]
+  },
+  {
+    "id": "fort_refusal", "title": "坞堡不奉调", "kind": "rebel", "weight": 10,
+    "text": "境内大族筑坞自保，拒不奉调，亦不出粮助军。",
+    "scope": "city", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "遣使招抚（信誉 +3，内乱 −15）",
+        "gen": [{ "type": "credit", "value": 3 }, { "type": "unrest", "value": -15 }] },
+      { "label": "发兵强攻（粮 −250，内乱 −5）",
+        "gen": [{ "type": "res", "id": "food", "value": -250 }, { "type": "unrest", "value": -5 }] }
+    ]
+  },
+  {
+    "id": "governor_shift", "title": "太守异动", "kind": "rebel", "weight": 10,
+    "text": "有人密告：城中主事者近来结交豪杰，行迹颇为可疑。",
+    "scope": "city", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "召回问话（铜钱 −150，内乱 −10）",
+        "gen": [{ "type": "res", "id": "gold", "value": -150 }, { "type": "unrest", "value": -10 }] },
+      { "label": "佯作不知（内乱 +8）",
+        "gen": [{ "type": "unrest", "value": 8 }] }
+    ]
+  },
+  {
+    "id": "new_city_turmoil", "title": "新附骚动", "kind": "rebel", "weight": 12,
+    "text": "新附之民怀念旧主，市井之间颇有骚动之象。",
+    "scope": "city", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "抚恤安民（铜钱 −250，内乱 −25）",
+        "gen": [{ "type": "res", "id": "gold", "value": -250 }, { "type": "unrest", "value": -25 }] },
+      { "label": "置之不理（内乱 +10）",
+        "gen": [{ "type": "unrest", "value": 10 }] }
+    ]
+  },
+  {
+    "id": "troops_pillage", "title": "兵卒扰民", "kind": "rebel", "weight": 10,
+    "text": "驻军中有兵卒劫掠民财，百姓聚于府前鸣冤。",
+    "scope": "city", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "严惩主犯（威望 +2，内乱 −15）",
+        "gen": [{ "type": "prestige", "value": 2 }, { "type": "unrest", "value": -15 }] },
+      { "label": "曲意庇护（威望 −3，内乱 +5）",
+        "gen": [{ "type": "prestige", "value": -3 }, { "type": "unrest", "value": 5 }] }
+    ]
+  },
+  {
+    "id": "clan_plot", "title": "豪族连结", "kind": "rebel", "weight": 10,
+    "text": "数家大族私下联姻结党，隐隐有把持一城之势。",
+    "scope": "city", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "分而化之（铜钱 −250，内乱 −20）",
+        "gen": [{ "type": "res", "id": "gold", "value": -250 }, { "type": "unrest", "value": -20 }] },
+      { "label": "姑息容忍（内乱 +10）",
+        "gen": [{ "type": "unrest", "value": 10 }] }
+    ]
+  },
+
+  {
+    "id": "governor_unrest", "title": "太守心怀怨望", "kind": "warning", "weight": 0,
+    "text": "细作回报：城中太守久未得赏，私下颇有怨言，恐生异心。",
+    "scope": "hero", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "厚加赏赐（铜钱 −200，忠诚 +8）",
+        "gen": [{ "type": "res", "id": "gold", "value": -200 }, { "type": "loyalty", "value": 8 }] },
+      { "label": "置之不理",
+        "gen": [] }
+    ]
+  },
+  {
+    "id": "enemy_raid_warning", "title": "敌骑犯境", "kind": "warning", "weight": 0,
+    "text": "斥候回报：敌军已在我边境集结，旬日之内必至。",
+    "scope": "city", "expireTurns": 2, "defaultChoice": 1,
+    "choices": [
+      { "label": "征发民夫加固城防（铜钱 −150，城防 +15）",
+        "gen": [{ "type": "res", "id": "gold", "value": -150 }, { "type": "defense", "value": 15 }] },
+      { "label": "静观其变",
+        "gen": [] }
+    ]
+  }
+]

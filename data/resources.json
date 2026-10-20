@@ -1,0 +1,9 @@
+[
+  { "id": "food",     "name": "粮草",   "cap": 2000, "start": 500 },
+  { "id": "gold",     "name": "铜钱",   "cap": 1000, "start": 200 },
+  { "id": "wood",     "name": "木材",   "cap": 1000, "start": 200 },
+  { "id": "stone",    "name": "石料",   "cap": 800,  "start": 0 },
+  { "id": "iron",     "name": "铁",     "cap": 800,  "start": 0 },
+  { "id": "arms",     "name": "军械",   "cap": 500,  "start": 0 },
+  { "id": "research", "name": "研究点", "cap": 1000, "start": 0 }
+]

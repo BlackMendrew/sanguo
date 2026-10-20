@@ -1,0 +1,189 @@
+{
+  "_schema": "武将画像：exact = 名将一对一（用户确认 + 按传统形象的提案）；pools = 按面相类型分池，**允许重复使用**。解析顺序：exact → pooled(按 trait/三才) → 姓氏字牌兜底。",
+  "_note": "素材：asaryu「戦国時代・三国志の武将 顔のイラスト集」無料素材。作者未公布「编号→姓名」对照表，故除名将外一律按**面相类型**取用，不声称是本人。",
+  "_confirmed": [
+    "guanyu",
+    "zhangfei",
+    "xiahoudun"
+  ],
+  "exact": {
+    "guanyu": "portrait-12",
+    "zhangfei": "portrait-11",
+    "xiahoudun": "portrait-10",
+    "liubei": "portrait-01",
+    "caocao": "portrait-02",
+    "sunquan": "portrait-55",
+    "yuanshao": "portrait-22",
+    "yuanshu": "portrait-69",
+    "liubiao": "portrait-38",
+    "lvbu": "portrait-70",
+    "dongzhuo": "portrait-80",
+    "sunce": "portrait-44",
+    "sunjian": "portrait-41",
+    "zhugeliang": "portrait-30",
+    "zhaoyun": "portrait-07",
+    "machao": "portrait-13",
+    "huangzhong": "portrait-21",
+    "pangtong": "portrait-50",
+    "weiyan": "portrait-14",
+    "jiangwei": "portrait-15",
+    "fazheng": "portrait-57",
+    "xushu": "portrait-71",
+    "simayi": "portrait-03",
+    "xiahouyuan": "portrait-36",
+    "zhangliao": "portrait-48",
+    "xuchu": "portrait-04",
+    "dianwei": "portrait-17",
+    "xuhuang": "portrait-29",
+    "zhanghe": "portrait-24",
+    "xunyu": "portrait-42",
+    "guojia": "portrait-26",
+    "jiaxu": "portrait-33",
+    "chengyu": "portrait-32",
+    "xunyou": "portrait-74",
+    "caoren": "portrait-09",
+    "dengai": "portrait-76",
+    "zhonghui": "portrait-43",
+    "yanliang": "portrait-16",
+    "wenchou": "portrait-39",
+    "tianfeng": "portrait-59",
+    "jushou": "portrait-67",
+    "chengong": "portrait-64",
+    "zhouyu": "portrait-40",
+    "lusu": "portrait-05",
+    "luxun": "portrait-18",
+    "lvmeng": "portrait-31",
+    "ganning": "portrait-28",
+    "taishici": "portrait-27"
+  },
+  "pools": {
+    "ruler": [
+      "portrait-01",
+      "portrait-02",
+      "portrait-06",
+      "portrait-22",
+      "portrait-32",
+      "portrait-38",
+      "portrait-42",
+      "portrait-55",
+      "portrait-59",
+      "portrait-60",
+      "portrait-65",
+      "portrait-67",
+      "portrait-74",
+      "portrait-80",
+      "portrait-61"
+    ],
+    "fierce": [
+      "portrait-04",
+      "portrait-17",
+      "portrait-28",
+      "portrait-35",
+      "portrait-39",
+      "portrait-45",
+      "portrait-46",
+      "portrait-51",
+      "portrait-53",
+      "portrait-58",
+      "portrait-60",
+      "portrait-66",
+      "portrait-70",
+      "portrait-78",
+      "portrait-47"
+    ],
+    "general": [
+      "portrait-08",
+      "portrait-09",
+      "portrait-16",
+      "portrait-19",
+      "portrait-20",
+      "portrait-23",
+      "portrait-24",
+      "portrait-25",
+      "portrait-29",
+      "portrait-36",
+      "portrait-37",
+      "portrait-48",
+      "portrait-54",
+      "portrait-63",
+      "portrait-73",
+      "portrait-77",
+      "portrait-79",
+      "portrait-69"
+    ],
+    "youth": [
+      "portrait-07",
+      "portrait-15",
+      "portrait-27",
+      "portrait-30",
+      "portrait-40",
+      "portrait-43",
+      "portrait-44",
+      "portrait-62",
+      "portrait-71",
+      "portrait-72",
+      "portrait-75",
+      "portrait-76"
+    ],
+    "schemer": [
+      "portrait-03",
+      "portrait-26",
+      "portrait-31",
+      "portrait-33",
+      "portrait-34",
+      "portrait-41",
+      "portrait-52",
+      "portrait-57",
+      "portrait-64"
+    ],
+    "elder": [
+      "portrait-21",
+      "portrait-23",
+      "portrait-25",
+      "portrait-49",
+      "portrait-56",
+      "portrait-65",
+      "portrait-68"
+    ]
+  },
+  "resolve": {
+    "order": [
+      "exact",
+      "pool",
+      "autonym"
+    ],
+    "poolByTrait": {
+      "fame": "ruler",
+      "fierce": "fierce",
+      "greedy": "schemer",
+      "righteous": null
+    },
+    "poolByStats": {
+      "note": "trait=righteous 或未命中时，按三才分配",
+      "mightGteWits": "general",
+      "witsGtMight": "schemer",
+      "weakAll": "youth",
+      "politicsHigh": "elder"
+    },
+    "thresholds": {
+      "elderPolitics": 70,
+      "weakAll": 75
+    },
+    "deterministic": "priority = hash(heroId) —— 同一武将在任何设备/存档都得到同一张图"
+  },
+  "_decisions": {
+    "confirmedByUser": [
+      "guanyu",
+      "zhangfei",
+      "xiahoudun"
+    ],
+    "leadAdjusted": {
+      "sunquan": "65→55",
+      "zhangliao": "19→48",
+      "xunyu": "06→42",
+      "xunyou": "42→74",
+      "fazheng": "74→57"
+    },
+    "rule": "名将一对一按「传统形象 + 面相特征」定；其余按 trait/三才 从 6 个面相池取用，允许重复。用户授权 Lead 全权决定（「你自己搞吧」）。"
+  }
+}

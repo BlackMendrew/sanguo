@@ -1,0 +1,9 @@
+[
+  { "id": "farmer",     "name": "农夫", "res": "food",     "rate": 1.6 },
+  { "id": "lumberjack", "name": "樵夫", "res": "wood",     "rate": 0.7 },
+  { "id": "mason",      "name": "石匠", "res": "stone",    "rate": 0.5 },
+  { "id": "miner",      "name": "矿工", "res": "iron",     "rate": 0.5 },
+  { "id": "artisan",    "name": "工匠", "res": "arms",     "rate": 0.4 },
+  { "id": "merchant",   "name": "商贾", "res": "gold",     "rate": 0.9 },
+  { "id": "scholar",    "name": "书生", "res": "research", "rate": 0.3 }
+]

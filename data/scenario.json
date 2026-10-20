@@ -1,0 +1,60 @@
+{
+  "_note": "完整版开局：36 城 / 8 AI 势力 + 玩家 / 7 座中立城。**难度只调数值，开局城固定**（用户裁决：难度与城市解绑）。",
+
+  "_removed_startCities": "原 5 难度 = 5 开局城（成都/长安/邺城/小沛/武威）已废弃——用户质疑『为什么难度要跟城市绑定』，故解绑。",
+
+  "startCity": "xiaopei",
+
+  "owners": {
+    "wuwei": "mateng", "anding": "mateng", "tianshui": "mateng",
+
+    "jinyang": "yuanshao", "shangdang": "yuanshao", "yecheng": "yuanshao",
+    "pingyuan": "yuanshao", "beiping": "yuanshao",
+
+    "beihai": "lvbu", "xiapi": "lvbu",
+
+    "xuchang": "caocao", "chenliu": "caocao", "puyang": "caocao", "runan": "caocao",
+
+    "lujiang": "sunce", "jianye": "sunce", "wujun": "sunce", "kuaiji": "sunce",
+
+    "shouchun": "yuanshu", "hefei": "yuanshu",
+
+    "xiangyang": "liubiao", "shangyong": "liubiao", "jiangling": "liubiao",
+    "jiangxia": "liubiao", "changsha": "liubiao",
+
+    "hanzhong": "liuzhang", "chengdu": "liuzhang", "jiangzhou": "liuzhang", "yongan": "liuzhang",
+
+    "changan": null, "luoyang": null, "wancheng": null, "xiaopei": null,
+    "wuling": null, "guiyang": null, "lingling": null
+  },
+
+  "baseGarrison": { "low": 250, "mid": 400, "high": 650 },
+
+  "playerStartGarrison": 100,
+
+  "baseBuildings": {
+    "low":  { "house": 3, "farm": 3, "lumber_camp": 2 },
+    "mid":  { "house": 6, "farm": 6, "lumber_camp": 3, "granary": 1 },
+    "high": { "house": 9, "farm": 9, "lumber_camp": 4, "granary": 2, "barracks": 1 }
+  },
+
+  "playerStartBuildings": { "house": 4, "farm": 1, "lumber_camp": 1, "barracks": 1 },
+
+  "aiBuildUps": {
+    "_note": "AI 城的额外建设：按城防档给，让后期打下来的城值得打",
+    "low": 1.0, "mid": 1.0, "high": 1.0
+  },
+
+  "initialTechs": [],
+  "initialGold": 200,
+  "_heroesNote": "用户裁决：开局**一个武将都不给**，从 0 开始（『开局不需要出征呀』）。关羽/张飞（家乡小沛）因此在野可招——从无到有、日后才招到关张。⚠️ 0 武将时必须有『保底来投』，否则永远无法组建军队（实测 8 个种子中 5 个跑满 80 旬仍无将）。",
+  "initialHeroes": [],
+
+  "difficulty": {
+    "1": { "name": "悠闲", "playerMul": 1.5, "aiMul": 0.9,  "neutralMul": 0.5  },
+    "2": { "name": "轻松", "playerMul": 1.2, "aiMul": 1.0,  "neutralMul": 0.75 },
+    "3": { "name": "普通", "playerMul": 1.0, "aiMul": 1.1,  "neutralMul": 1.0  },
+    "4": { "name": "困难", "playerMul": 0.8, "aiMul": 1.25, "neutralMul": 1.25 },
+    "5": { "name": "极难", "playerMul": 0.6, "aiMul": 1.4,  "neutralMul": 1.5  }
+  }
+}

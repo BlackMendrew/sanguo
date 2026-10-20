@@ -1,0 +1,142 @@
+[
+  { "id": "house", "name": "民居", "cat": "housing", "repeatable": true,
+    "cost": { "wood": 20 }, "req": [],
+    "gen": [{ "type": "laborCap", "value": 2 },
+            { "type": "resPerSec", "id": "research", "value": 0.15 },
+            { "type": "resPerSec", "id": "gold", "value": 0.15 }] },
+
+  { "id": "lifang", "name": "里坊", "cat": "housing", "repeatable": true,
+    "cost": { "wood": 40, "stone": 30, "gold": 50 },
+    "req": [{ "type": "tech", "id": "lijia", "value": 1 },
+            { "type": "building", "id": "house", "value": 5 }],
+    "gen": [{ "type": "laborCap", "value": 5 }] },
+
+  { "id": "granary", "name": "仓廪", "cat": "cap", "repeatable": true,
+    "cost": { "wood": 30, "stone": 20 }, "req": [{ "type": "tech", "id": "agriculture", "value": 1 }],
+    "gen": [{ "type": "resCap", "id": "food", "value": 2000 }] },
+
+  { "id": "changping", "name": "常平仓", "cat": "cap", "repeatable": true,
+    "cost": { "wood": 80, "stone": 60, "gold": 100 },
+    "req": [{ "type": "tech", "id": "cangchu", "value": 1 },
+            { "type": "building", "id": "granary", "value": 3 }],
+    "gen": [{ "type": "resCap", "id": "food", "value": 15000 }] },
+
+  { "id": "farm", "name": "农田", "cat": "job", "repeatable": true,
+    "cost": { "wood": 10 }, "req": [],
+    "gen": [{ "type": "jobSlot", "id": "farmer", "value": 2 }] },
+
+  { "id": "paddy", "name": "水田", "cat": "job", "repeatable": true,
+    "cost": { "wood": 30, "stone": 20 }, "req": [{ "type": "tech", "id": "shuili", "value": 1 }],
+    "gen": [{ "type": "jobSlot", "id": "farmer", "value": 4 },
+            { "type": "modifier", "id": "food", "value": 0.10 }] },
+
+  { "id": "lumber_camp", "name": "林场", "cat": "job", "repeatable": true,
+    "cost": { "wood": 10 }, "req": [],
+    "gen": [{ "type": "jobSlot", "id": "lumberjack", "value": 2 }] },
+
+  { "id": "quarry", "name": "采石场", "cat": "job", "repeatable": true,
+    "cost": { "wood": 20, "gold": 15 }, "req": [{ "type": "tech", "id": "quarrying", "value": 1 }],
+    "gen": [{ "type": "jobSlot", "id": "mason", "value": 2 }] },
+
+  { "id": "mine", "name": "矿场", "cat": "job", "repeatable": true,
+    "cost": { "wood": 30, "gold": 30 }, "req": [{ "type": "tech", "id": "mining", "value": 1 }],
+    "gen": [{ "type": "jobSlot", "id": "miner", "value": 2 }] },
+
+  { "id": "workshop", "name": "工坊", "cat": "job", "repeatable": true,
+    "cost": { "wood": 40, "stone": 20, "gold": 40 }, "req": [{ "type": "tech", "id": "smelting", "value": 1 }],
+    "gen": [{ "type": "jobSlot", "id": "artisan", "value": 2 }] },
+
+  { "id": "market", "name": "市集", "cat": "job", "repeatable": true,
+    "cost": { "wood": 30, "gold": 50 }, "req": [{ "type": "tech", "id": "trade", "value": 1 }],
+    "gen": [{ "type": "jobSlot", "id": "merchant", "value": 2 }] },
+
+  { "id": "academy", "name": "学舍", "cat": "job", "repeatable": true,
+    "cost": { "wood": 40, "gold": 60 }, "req": [{ "type": "tech", "id": "education", "value": 1 }],
+    "gen": [{ "type": "jobSlot", "id": "scholar", "value": 2 },
+            { "type": "resCap", "id": "research", "value": 2000 }] },
+
+  { "id": "lumber_yard", "name": "木场", "cat": "cap", "repeatable": true,
+    "cost": { "wood": 20 }, "req": [{ "type": "tech", "id": "logging", "value": 1 }],
+    "gen": [{ "type": "resCap", "id": "wood", "value": 3000 }] },
+
+  { "id": "stone_yard", "name": "石场", "cat": "cap", "repeatable": true,
+    "cost": { "wood": 30, "stone": 10 }, "req": [{ "type": "tech", "id": "quarrying", "value": 1 }],
+    "gen": [{ "type": "resCap", "id": "stone", "value": 2000 }] },
+
+  { "id": "iron_store", "name": "铁库", "cat": "cap", "repeatable": true,
+    "cost": { "wood": 30, "stone": 30 }, "req": [{ "type": "tech", "id": "smelting", "value": 1 }],
+    "gen": [{ "type": "resCap", "id": "iron", "value": 2000 }] },
+
+  { "id": "treasury", "name": "钱库", "cat": "cap", "repeatable": true,
+    "cost": { "wood": 30, "stone": 20 }, "req": [{ "type": "tech", "id": "trade", "value": 1 }],
+    "gen": [{ "type": "resCap", "id": "gold", "value": 3000 }] },
+
+  { "id": "arsenal", "name": "军械库", "cat": "cap", "repeatable": true,
+    "cost": { "wood": 40, "stone": 30, "iron": 10 }, "req": [{ "type": "tech", "id": "junxie", "value": 1 }],
+    "gen": [{ "type": "resCap", "id": "arms", "value": 2000 }] },
+
+  { "id": "barracks", "name": "兵营", "cat": "military", "repeatable": true,
+    "cost": { "wood": 50, "stone": 30, "gold": 50 }, "req": [],
+    "gen": [{ "type": "armyCap", "value": 500 }, { "type": "unlock", "id": "recruit" }] },
+
+  { "id": "training_ground", "name": "校场", "cat": "military", "repeatable": true,
+    "cost": { "wood": 80, "stone": 60, "gold": 100 }, "req": [{ "type": "tech", "id": "xiaoyue", "value": 1 }],
+    "gen": [{ "type": "armyCap", "value": 1500 }],
+    "effects": { "armyAttack": 0.05 } },
+
+  { "id": "city_wall", "name": "城墙", "cat": "military", "repeatable": true,
+    "cost": { "stone": 60, "wood": 40 }, "req": [{ "type": "tech", "id": "chengfang", "value": 1 }],
+    "gen": [{ "type": "defense", "value": 30 }] },
+
+  { "id": "barbican", "name": "瓮城", "cat": "military", "repeatable": true,
+    "cost": { "stone": 120, "iron": 30 }, "req": [{ "type": "tech", "id": "jiancheng", "value": 1 }],
+    "gen": [{ "type": "defense", "value": 60 }] },
+
+  { "id": "stable", "name": "马厩", "cat": "military", "repeatable": true,
+    "cost": { "wood": 60, "gold": 80 }, "req": [{ "type": "tech", "id": "horsemanship", "value": 1 }],
+    "gen": [],
+    "effects": { "unitCost": { "cavalry": -0.10 }, "unitAttack": { "cavalry": 0.10 } } },
+
+  { "id": "recruitment_hall", "name": "招贤馆", "cat": "function", "repeatable": true,
+    "cost": { "wood": 50, "gold": 100 }, "req": [],
+    "gen": [{ "type": "unlock", "id": "heroRecruit" }] },
+
+  { "id": "clinic", "name": "医馆", "cat": "function", "repeatable": true,
+    "cost": { "wood": 40, "gold": 60 }, "req": [],
+    "gen": [],
+    "effects": { "laborGrowth": 0.10, "laborLossReduce": 0.25 } },
+
+  { "id": "supply_road", "name": "粮道", "cat": "function", "repeatable": true,
+    "cost": { "wood": 60, "stone": 40 }, "req": [{ "type": "tech", "id": "liangdao", "value": 1 }],
+    "gen": [],
+    "effects": { "supplySave": 0.15 } },
+
+  { "id": "beacon", "name": "烽火台", "cat": "function", "repeatable": true,
+    "cost": { "wood": 40, "stone": 30 }, "req": [{ "type": "tech", "id": "fengsui", "value": 1 }],
+    "gen": [],
+    "effects": { "warningAdvance": 1 } },
+
+  { "id": "siege_workshop", "name": "匠作营", "cat": "function", "repeatable": true,
+    "cost": { "wood": 80, "iron": 40, "arms": 20 }, "req": [{ "type": "tech", "id": "gongcheng", "value": 1 }],
+    "gen": [],
+    "effects": { "unitCost": { "siege": -0.15 } } },
+
+  { "id": "great_granary", "name": "大仓", "cat": "cap", "repeatable": true,
+    "cost": { "wood": 150, "stone": 120, "gold": 200 },
+    "req": [{ "type": "building", "id": "changping", "value": 3 }],
+    "gen": [{ "type": "resCap", "id": "food", "value": 80000 }] },
+
+  { "id": "university", "name": "大学", "cat": "function", "repeatable": false,
+    "cost": { "wood": 100, "stone": 80, "gold": 150 },
+    "req": [{ "type": "tech", "id": "daxue", "value": 1 },
+            { "type": "building", "id": "academy", "value": 3 }],
+    "gen": [{ "type": "modifier", "id": "research", "value": 0.30 },
+            { "type": "resCap", "id": "research", "value": 8000 }] },
+
+  { "id": "armory", "name": "武库", "cat": "military", "repeatable": false,
+    "cost": { "wood": 120, "iron": 80, "arms": 60 },
+    "req": [{ "type": "building", "id": "arsenal", "value": 1 },
+            { "type": "building", "id": "training_ground", "value": 1 }],
+    "gen": [],
+    "effects": { "armyAttack": 0.10, "armyDefense": 0.10 } }
+]

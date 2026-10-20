@@ -1,0 +1,2022 @@
+[
+  {
+    "id": "guanyu",
+    "name": "关羽",
+    "lead": 95,
+    "might": 97,
+    "wits": 75,
+    "politics": 62,
+    "trait": "righteous",
+    "home": "xiaopei"
+  },
+  {
+    "id": "zhangfei",
+    "name": "张飞",
+    "lead": 88,
+    "might": 98,
+    "wits": 30,
+    "politics": 22,
+    "trait": "fierce",
+    "home": "xiaopei"
+  },
+  {
+    "id": "liubei",
+    "name": "刘备",
+    "lead": 78,
+    "might": 73,
+    "wits": 85,
+    "politics": 90,
+    "trait": "righteous",
+    "home": "xiaopei"
+  },
+  {
+    "id": "sunqian",
+    "name": "孙乾",
+    "lead": 50,
+    "might": 30,
+    "wits": 72,
+    "politics": 80,
+    "trait": "righteous",
+    "home": "xiaopei"
+  },
+  {
+    "id": "zhaoyun",
+    "name": "赵云",
+    "lead": 91,
+    "might": 96,
+    "wits": 76,
+    "politics": 65,
+    "trait": "righteous",
+    "home": null
+  },
+  {
+    "id": "machao",
+    "name": "马超",
+    "lead": 89,
+    "might": 97,
+    "wits": 44,
+    "politics": 26,
+    "trait": "fierce",
+    "home": null
+  },
+  {
+    "id": "huangzhong",
+    "name": "黄忠",
+    "lead": 88,
+    "might": 93,
+    "wits": 56,
+    "politics": 40,
+    "trait": "righteous",
+    "home": null
+  },
+  {
+    "id": "zhugeliang",
+    "name": "诸葛亮",
+    "lead": 92,
+    "might": 38,
+    "wits": 100,
+    "politics": 95,
+    "trait": "righteous",
+    "home": null
+  },
+  {
+    "id": "caocao",
+    "name": "曹操",
+    "lead": 96,
+    "might": 72,
+    "wits": 91,
+    "politics": 94,
+    "trait": "fame",
+    "home": "chenliu"
+  },
+  {
+    "id": "xiahoudun",
+    "name": "夏侯惇",
+    "lead": 87,
+    "might": 90,
+    "wits": 58,
+    "politics": 60,
+    "trait": "righteous",
+    "home": "chenliu"
+  },
+  {
+    "id": "xiahouyuan",
+    "name": "夏侯渊",
+    "lead": 86,
+    "might": 91,
+    "wits": 54,
+    "politics": 40,
+    "trait": "fierce",
+    "home": "chenliu"
+  },
+  {
+    "id": "xunyu",
+    "name": "荀彧",
+    "lead": 60,
+    "might": 30,
+    "wits": 95,
+    "politics": 99,
+    "trait": "righteous",
+    "home": "xuchang"
+  },
+  {
+    "id": "guojia",
+    "name": "郭嘉",
+    "lead": 55,
+    "might": 20,
+    "wits": 98,
+    "politics": 78,
+    "trait": "righteous",
+    "home": "xuchang"
+  },
+  {
+    "id": "chengyu",
+    "name": "程昱",
+    "lead": 65,
+    "might": 45,
+    "wits": 90,
+    "politics": 82,
+    "trait": "greedy",
+    "home": "xuchang"
+  },
+  {
+    "id": "zhangliao",
+    "name": "张辽",
+    "lead": 92,
+    "might": 93,
+    "wits": 78,
+    "politics": 58,
+    "trait": "righteous",
+    "home": null
+  },
+  {
+    "id": "xuhuang",
+    "name": "徐晃",
+    "lead": 88,
+    "might": 90,
+    "wits": 70,
+    "politics": 52,
+    "trait": "righteous",
+    "home": null
+  },
+  {
+    "id": "yujin",
+    "name": "于禁",
+    "lead": 84,
+    "might": 78,
+    "wits": 62,
+    "politics": 55,
+    "trait": "greedy",
+    "home": null
+  },
+  {
+    "id": "lejin",
+    "name": "乐进",
+    "lead": 82,
+    "might": 85,
+    "wits": 56,
+    "politics": 44,
+    "trait": "fierce",
+    "home": null
+  },
+  {
+    "id": "jiaxu",
+    "name": "贾诩",
+    "lead": 62,
+    "might": 32,
+    "wits": 97,
+    "politics": 85,
+    "trait": "greedy",
+    "home": null
+  },
+  {
+    "id": "lvbu",
+    "name": "吕布",
+    "lead": 92,
+    "might": 100,
+    "wits": 26,
+    "politics": 14,
+    "trait": "greedy",
+    "home": "xiapi"
+  },
+  {
+    "id": "chengong",
+    "name": "陈宫",
+    "lead": 70,
+    "might": 45,
+    "wits": 88,
+    "politics": 76,
+    "trait": "righteous",
+    "home": "xiapi"
+  },
+  {
+    "id": "gaoshun",
+    "name": "高顺",
+    "lead": 85,
+    "might": 82,
+    "wits": 60,
+    "politics": 38,
+    "trait": "righteous",
+    "home": "xiapi"
+  },
+  {
+    "id": "mizhu",
+    "name": "糜竺",
+    "lead": 40,
+    "might": 25,
+    "wits": 70,
+    "politics": 85,
+    "trait": "greedy",
+    "home": "xiapi"
+  },
+  {
+    "id": "zangba",
+    "name": "臧霸",
+    "lead": 80,
+    "might": 82,
+    "wits": 65,
+    "politics": 50,
+    "trait": "greedy",
+    "home": "beihai"
+  },
+  {
+    "id": "taishici",
+    "name": "太史慈",
+    "lead": 82,
+    "might": 88,
+    "wits": 60,
+    "politics": 45,
+    "trait": "righteous",
+    "home": "beihai"
+  },
+  {
+    "id": "yuanshao",
+    "name": "袁绍",
+    "lead": 80,
+    "might": 65,
+    "wits": 72,
+    "politics": 78,
+    "trait": "fame",
+    "home": "runan"
+  },
+  {
+    "id": "yanliang",
+    "name": "颜良",
+    "lead": 78,
+    "might": 92,
+    "wits": 34,
+    "politics": 20,
+    "trait": "fierce",
+    "home": "runan"
+  },
+  {
+    "id": "wenchou",
+    "name": "文丑",
+    "lead": 77,
+    "might": 90,
+    "wits": 30,
+    "politics": 18,
+    "trait": "fierce",
+    "home": "runan"
+  },
+  {
+    "id": "tianfeng",
+    "name": "田丰",
+    "lead": 60,
+    "might": 25,
+    "wits": 94,
+    "politics": 80,
+    "trait": "righteous",
+    "home": "runan"
+  },
+  {
+    "id": "jushou",
+    "name": "沮授",
+    "lead": 62,
+    "might": 30,
+    "wits": 92,
+    "politics": 78,
+    "trait": "righteous",
+    "home": "runan"
+  },
+  {
+    "id": "caoren",
+    "name": "曹仁",
+    "lead": 88,
+    "might": 86,
+    "wits": 63,
+    "politics": 54,
+    "trait": "righteous",
+    "home": "chenliu"
+  },
+  {
+    "id": "caozhen",
+    "name": "曹真",
+    "lead": 82,
+    "might": 81,
+    "wits": 66,
+    "politics": 58,
+    "trait": "righteous",
+    "home": "xuchang"
+  },
+  {
+    "id": "xunyou",
+    "name": "荀攸",
+    "lead": 66,
+    "might": 30,
+    "wits": 89,
+    "politics": 84,
+    "trait": "righteous",
+    "home": "xuchang"
+  },
+  {
+    "id": "simayi",
+    "name": "司马懿",
+    "lead": 89,
+    "might": 62,
+    "wits": 89,
+    "politics": 88,
+    "trait": "fame",
+    "home": "wancheng"
+  },
+  {
+    "id": "zhanghe",
+    "name": "张郃",
+    "lead": 86,
+    "might": 86,
+    "wits": 76,
+    "politics": 50,
+    "trait": "righteous",
+    "home": "yecheng"
+  },
+  {
+    "id": "xuchu",
+    "name": "许褚",
+    "lead": 70,
+    "might": 89,
+    "wits": 30,
+    "politics": 22,
+    "trait": "fierce",
+    "home": "xuchang"
+  },
+  {
+    "id": "pangde",
+    "name": "庞德",
+    "lead": 80,
+    "might": 87,
+    "wits": 56,
+    "politics": 38,
+    "trait": "righteous",
+    "home": "tianshui"
+  },
+  {
+    "id": "guohuai",
+    "name": "郭淮",
+    "lead": 82,
+    "might": 76,
+    "wits": 78,
+    "politics": 64,
+    "trait": "righteous",
+    "home": "tianshui"
+  },
+  {
+    "id": "dengai",
+    "name": "邓艾",
+    "lead": 89,
+    "might": 72,
+    "wits": 86,
+    "politics": 70,
+    "trait": "righteous",
+    "home": "tianshui"
+  },
+  {
+    "id": "zhonghui",
+    "name": "钟会",
+    "lead": 78,
+    "might": 60,
+    "wits": 88,
+    "politics": 73,
+    "trait": "fame",
+    "home": "xuchang"
+  },
+  {
+    "id": "duyu",
+    "name": "杜预",
+    "lead": 78,
+    "might": 50,
+    "wits": 88,
+    "politics": 86,
+    "trait": "righteous",
+    "home": "changan"
+  },
+  {
+    "id": "yanghu",
+    "name": "羊祜",
+    "lead": 85,
+    "might": 60,
+    "wits": 86,
+    "politics": 89,
+    "trait": "righteous",
+    "home": "xiangyang"
+  },
+  {
+    "id": "caochun",
+    "name": "曹纯",
+    "lead": 68,
+    "might": 71,
+    "wits": 56,
+    "politics": 44,
+    "trait": "righteous",
+    "home": "chenliu"
+  },
+  {
+    "id": "caoxiu",
+    "name": "曹休",
+    "lead": 66,
+    "might": 70,
+    "wits": 61,
+    "politics": 48,
+    "trait": "fame",
+    "home": "xuchang"
+  },
+  {
+    "id": "caozhang",
+    "name": "曹彰",
+    "lead": 61,
+    "might": 73,
+    "wits": 38,
+    "politics": 30,
+    "trait": "fierce",
+    "home": "chenliu"
+  },
+  {
+    "id": "caopi",
+    "name": "曹丕",
+    "lead": 64,
+    "might": 57,
+    "wits": 71,
+    "politics": 73,
+    "trait": "fame",
+    "home": "chenliu"
+  },
+  {
+    "id": "caozhi",
+    "name": "曹植",
+    "lead": 34,
+    "might": 26,
+    "wits": 73,
+    "politics": 64,
+    "trait": "fame",
+    "home": "chenliu"
+  },
+  {
+    "id": "caorui",
+    "name": "曹叡",
+    "lead": 60,
+    "might": 52,
+    "wits": 66,
+    "politics": 72,
+    "trait": "fame",
+    "home": "xuchang"
+  },
+  {
+    "id": "caohong",
+    "name": "曹洪",
+    "lead": 63,
+    "might": 72,
+    "wits": 44,
+    "politics": 40,
+    "trait": "greedy",
+    "home": "chenliu"
+  },
+  {
+    "id": "caoshuang",
+    "name": "曹爽",
+    "lead": 47,
+    "might": 45,
+    "wits": 51,
+    "politics": 68,
+    "trait": "greedy",
+    "home": "luoyang"
+  },
+  {
+    "id": "xiahoushang",
+    "name": "夏侯尚",
+    "lead": 70,
+    "might": 69,
+    "wits": 59,
+    "politics": 52,
+    "trait": "righteous",
+    "home": "chenliu"
+  },
+  {
+    "id": "xiahouba",
+    "name": "夏侯霸",
+    "lead": 67,
+    "might": 67,
+    "wits": 55,
+    "politics": 40,
+    "trait": "fierce",
+    "home": "chenliu"
+  },
+  {
+    "id": "simafu",
+    "name": "司马孚",
+    "lead": 53,
+    "might": 36,
+    "wits": 69,
+    "politics": 65,
+    "trait": "righteous",
+    "home": "wancheng"
+  },
+  {
+    "id": "simazhao",
+    "name": "司马昭",
+    "lead": 71,
+    "might": 60,
+    "wits": 63,
+    "politics": 61,
+    "trait": "fame",
+    "home": "wancheng"
+  },
+  {
+    "id": "lidian",
+    "name": "李典",
+    "lead": 64,
+    "might": 62,
+    "wits": 68,
+    "politics": 60,
+    "trait": "righteous",
+    "home": "puyang"
+  },
+  {
+    "id": "manchong",
+    "name": "满宠",
+    "lead": 71,
+    "might": 66,
+    "wits": 72,
+    "politics": 70,
+    "trait": "righteous",
+    "home": "chenliu"
+  },
+  {
+    "id": "haozhao",
+    "name": "郝昭",
+    "lead": 68,
+    "might": 66,
+    "wits": 64,
+    "politics": 45,
+    "trait": "righteous",
+    "home": "changan"
+  },
+  {
+    "id": "wangshuang",
+    "name": "王双",
+    "lead": 56,
+    "might": 68,
+    "wits": 26,
+    "politics": 18,
+    "trait": "fierce",
+    "home": "changan"
+  },
+  {
+    "id": "zhongyao",
+    "name": "钟繇",
+    "lead": 52,
+    "might": 28,
+    "wits": 66,
+    "politics": 64,
+    "trait": "fame",
+    "home": "xuchang"
+  },
+  {
+    "id": "wanglang",
+    "name": "王朗",
+    "lead": 44,
+    "might": 24,
+    "wits": 68,
+    "politics": 62,
+    "trait": "fame",
+    "home": "xuchang"
+  },
+  {
+    "id": "huaxin",
+    "name": "华歆",
+    "lead": 46,
+    "might": 22,
+    "wits": 72,
+    "politics": 60,
+    "trait": "greedy",
+    "home": "xuchang"
+  },
+  {
+    "id": "dongzhao",
+    "name": "董昭",
+    "lead": 50,
+    "might": 28,
+    "wits": 70,
+    "politics": 73,
+    "trait": "greedy",
+    "home": "xuchang"
+  },
+  {
+    "id": "liuye",
+    "name": "刘晔",
+    "lead": 52,
+    "might": 30,
+    "wits": 71,
+    "politics": 72,
+    "trait": "fame",
+    "home": "runan"
+  },
+  {
+    "id": "jiangji",
+    "name": "蒋济",
+    "lead": 48,
+    "might": 26,
+    "wits": 72,
+    "politics": 69,
+    "trait": "righteous",
+    "home": "xuchang"
+  },
+  {
+    "id": "zhugedan",
+    "name": "诸葛诞",
+    "lead": 66,
+    "might": 64,
+    "wits": 68,
+    "politics": 56,
+    "trait": "fame",
+    "home": "xiapi"
+  },
+  {
+    "id": "wenqin",
+    "name": "文钦",
+    "lead": 64,
+    "might": 67,
+    "wits": 48,
+    "politics": 34,
+    "trait": "fierce",
+    "home": "shouchun"
+  },
+  {
+    "id": "guanqiuijian",
+    "name": "毌丘俭",
+    "lead": 70,
+    "might": 66,
+    "wits": 66,
+    "politics": 54,
+    "trait": "righteous",
+    "home": "luoyang"
+  },
+  {
+    "id": "jiachong",
+    "name": "贾充",
+    "lead": 60,
+    "might": 40,
+    "wits": 65,
+    "politics": 63,
+    "trait": "greedy",
+    "home": "luoyang"
+  },
+  {
+    "id": "xiahoumao",
+    "name": "夏侯楙",
+    "lead": 38,
+    "might": 42,
+    "wits": 34,
+    "politics": 46,
+    "trait": "greedy",
+    "home": "chenliu"
+  },
+  {
+    "id": "yangxiu",
+    "name": "杨修",
+    "lead": 36,
+    "might": 24,
+    "wits": 58,
+    "politics": 54,
+    "trait": "fame",
+    "home": "luoyang"
+  },
+  {
+    "id": "qinlang",
+    "name": "秦朗",
+    "lead": 48,
+    "might": 52,
+    "wits": 40,
+    "politics": 44,
+    "trait": "fame",
+    "home": "luoyang"
+  },
+  {
+    "id": "heyan",
+    "name": "何晏",
+    "lead": 30,
+    "might": 22,
+    "wits": 56,
+    "politics": 50,
+    "trait": "fame",
+    "home": "luoyang"
+  },
+  {
+    "id": "lisheng",
+    "name": "李胜",
+    "lead": 36,
+    "might": 30,
+    "wits": 50,
+    "politics": 48,
+    "trait": "greedy",
+    "home": "luoyang"
+  },
+  {
+    "id": "bigui",
+    "name": "毕轨",
+    "lead": 38,
+    "might": 44,
+    "wits": 40,
+    "politics": 42,
+    "trait": "greedy",
+    "home": "luoyang"
+  },
+  {
+    "id": "pangtong",
+    "name": "庞统",
+    "lead": 70,
+    "might": 32,
+    "wits": 89,
+    "politics": 76,
+    "trait": "righteous",
+    "home": "jiangling"
+  },
+  {
+    "id": "jiangwei",
+    "name": "姜维",
+    "lead": 89,
+    "might": 88,
+    "wits": 88,
+    "politics": 60,
+    "trait": "righteous",
+    "home": "tianshui"
+  },
+  {
+    "id": "weiyan",
+    "name": "魏延",
+    "lead": 84,
+    "might": 89,
+    "wits": 60,
+    "politics": 34,
+    "trait": "fierce",
+    "home": "jiangling"
+  },
+  {
+    "id": "fazheng",
+    "name": "法正",
+    "lead": 62,
+    "might": 34,
+    "wits": 89,
+    "politics": 80,
+    "trait": "righteous",
+    "home": "changan"
+  },
+  {
+    "id": "xushu",
+    "name": "徐庶",
+    "lead": 68,
+    "might": 40,
+    "wits": 88,
+    "politics": 61,
+    "trait": "righteous",
+    "home": "xuchang"
+  },
+  {
+    "id": "liyan",
+    "name": "李严",
+    "lead": 76,
+    "might": 70,
+    "wits": 80,
+    "politics": 76,
+    "trait": "fame",
+    "home": "yongan"
+  },
+  {
+    "id": "jiangwan",
+    "name": "蒋琬",
+    "lead": 62,
+    "might": 40,
+    "wits": 80,
+    "politics": 88,
+    "trait": "righteous",
+    "home": "lingling"
+  },
+  {
+    "id": "feiyi",
+    "name": "费祎",
+    "lead": 66,
+    "might": 44,
+    "wits": 82,
+    "politics": 86,
+    "trait": "righteous",
+    "home": "chengdu"
+  },
+  {
+    "id": "mashu",
+    "name": "马谡",
+    "lead": 66,
+    "might": 50,
+    "wits": 72,
+    "politics": 62,
+    "trait": "fame",
+    "home": "xiangyang"
+  },
+  {
+    "id": "wangping",
+    "name": "王平",
+    "lead": 70,
+    "might": 72,
+    "wits": 62,
+    "politics": 44,
+    "trait": "righteous",
+    "home": "hanzhong"
+  },
+  {
+    "id": "guanping",
+    "name": "关平",
+    "lead": 70,
+    "might": 68,
+    "wits": 58,
+    "politics": 46,
+    "trait": "righteous",
+    "home": "xiaopei"
+  },
+  {
+    "id": "guanxing",
+    "name": "关兴",
+    "lead": 68,
+    "might": 73,
+    "wits": 56,
+    "politics": 44,
+    "trait": "righteous",
+    "home": "xiaopei"
+  },
+  {
+    "id": "zhangbao",
+    "name": "张苞",
+    "lead": 65,
+    "might": 66,
+    "wits": 40,
+    "politics": 30,
+    "trait": "fierce",
+    "home": "xiaopei"
+  },
+  {
+    "id": "madai",
+    "name": "马岱",
+    "lead": 70,
+    "might": 64,
+    "wits": 54,
+    "politics": 40,
+    "trait": "righteous",
+    "home": "tianshui"
+  },
+  {
+    "id": "liaohua",
+    "name": "廖化",
+    "lead": 64,
+    "might": 70,
+    "wits": 58,
+    "politics": 46,
+    "trait": "righteous",
+    "home": "xiangyang"
+  },
+  {
+    "id": "mazhong",
+    "name": "马忠",
+    "lead": 66,
+    "might": 68,
+    "wits": 56,
+    "politics": 40,
+    "trait": "righteous",
+    "home": "hanzhong"
+  },
+  {
+    "id": "zhangyi",
+    "name": "张翼",
+    "lead": 68,
+    "might": 66,
+    "wits": 61,
+    "politics": 50,
+    "trait": "righteous",
+    "home": "hanzhong"
+  },
+  {
+    "id": "zhangni",
+    "name": "张嶷",
+    "lead": 66,
+    "might": 68,
+    "wits": 58,
+    "politics": 48,
+    "trait": "righteous",
+    "home": "jiangzhou"
+  },
+  {
+    "id": "wuyi",
+    "name": "吴懿",
+    "lead": 72,
+    "might": 70,
+    "wits": 60,
+    "politics": 52,
+    "trait": "righteous",
+    "home": "chengdu"
+  },
+  {
+    "id": "wuban",
+    "name": "吴班",
+    "lead": 66,
+    "might": 70,
+    "wits": 52,
+    "politics": 40,
+    "trait": "fierce",
+    "home": "chengdu"
+  },
+  {
+    "id": "yanyan",
+    "name": "严颜",
+    "lead": 72,
+    "might": 62,
+    "wits": 62,
+    "politics": 50,
+    "trait": "righteous",
+    "home": "jiangzhou"
+  },
+  {
+    "id": "huangquan",
+    "name": "黄权",
+    "lead": 60,
+    "might": 50,
+    "wits": 60,
+    "politics": 72,
+    "trait": "righteous",
+    "home": "yongan"
+  },
+  {
+    "id": "liuba",
+    "name": "刘巴",
+    "lead": 50,
+    "might": 26,
+    "wits": 73,
+    "politics": 71,
+    "trait": "greedy",
+    "home": "jiangzhou"
+  },
+  {
+    "id": "dongyun",
+    "name": "董允",
+    "lead": 52,
+    "might": 30,
+    "wits": 69,
+    "politics": 67,
+    "trait": "righteous",
+    "home": "chengdu"
+  },
+  {
+    "id": "jianyong",
+    "name": "简雍",
+    "lead": 44,
+    "might": 26,
+    "wits": 58,
+    "politics": 56,
+    "trait": "fame",
+    "home": "xiaopei"
+  },
+  {
+    "id": "liufeng",
+    "name": "刘封",
+    "lead": 46,
+    "might": 56,
+    "wits": 44,
+    "politics": 36,
+    "trait": "fierce",
+    "home": "xiaopei"
+  },
+  {
+    "id": "mengda",
+    "name": "孟达",
+    "lead": 50,
+    "might": 54,
+    "wits": 58,
+    "politics": 46,
+    "trait": "greedy",
+    "home": "yongan"
+  },
+  {
+    "id": "yangyi",
+    "name": "杨仪",
+    "lead": 46,
+    "might": 30,
+    "wits": 58,
+    "politics": 54,
+    "trait": "greedy",
+    "home": "xiangyang"
+  },
+  {
+    "id": "sunjian",
+    "name": "孙坚",
+    "lead": 89,
+    "might": 88,
+    "wits": 66,
+    "politics": 60,
+    "trait": "fierce",
+    "home": "wujun"
+  },
+  {
+    "id": "sunce",
+    "name": "孙策",
+    "lead": 89,
+    "might": 89,
+    "wits": 70,
+    "politics": 62,
+    "trait": "fame",
+    "home": "wujun"
+  },
+  {
+    "id": "sunquan",
+    "name": "孙权",
+    "lead": 78,
+    "might": 60,
+    "wits": 80,
+    "politics": 89,
+    "trait": "fame",
+    "home": "wujun"
+  },
+  {
+    "id": "zhouyu",
+    "name": "周瑜",
+    "lead": 89,
+    "might": 70,
+    "wits": 89,
+    "politics": 80,
+    "trait": "fame",
+    "home": "lujiang"
+  },
+  {
+    "id": "lusu",
+    "name": "鲁肃",
+    "lead": 70,
+    "might": 50,
+    "wits": 88,
+    "politics": 89,
+    "trait": "righteous",
+    "home": "lujiang"
+  },
+  {
+    "id": "lvmeng",
+    "name": "吕蒙",
+    "lead": 86,
+    "might": 80,
+    "wits": 84,
+    "politics": 60,
+    "trait": "righteous",
+    "home": "lujiang"
+  },
+  {
+    "id": "luxun",
+    "name": "陆逊",
+    "lead": 89,
+    "might": 72,
+    "wits": 89,
+    "politics": 84,
+    "trait": "righteous",
+    "home": "wujun"
+  },
+  {
+    "id": "lukang",
+    "name": "陆抗",
+    "lead": 88,
+    "might": 65,
+    "wits": 88,
+    "politics": 80,
+    "trait": "righteous",
+    "home": "wujun"
+  },
+  {
+    "id": "ganning",
+    "name": "甘宁",
+    "lead": 78,
+    "might": 89,
+    "wits": 56,
+    "politics": 30,
+    "trait": "fierce",
+    "home": "jiangxia"
+  },
+  {
+    "id": "zhoutai",
+    "name": "周泰",
+    "lead": 63,
+    "might": 88,
+    "wits": 44,
+    "politics": 30,
+    "trait": "righteous",
+    "home": "lujiang"
+  },
+  {
+    "id": "chengpu",
+    "name": "程普",
+    "lead": 80,
+    "might": 78,
+    "wits": 66,
+    "politics": 54,
+    "trait": "righteous",
+    "home": "wujun"
+  },
+  {
+    "id": "huanggai",
+    "name": "黄盖",
+    "lead": 76,
+    "might": 80,
+    "wits": 64,
+    "politics": 50,
+    "trait": "righteous",
+    "home": "wujun"
+  },
+  {
+    "id": "zhangzhao",
+    "name": "张昭",
+    "lead": 56,
+    "might": 24,
+    "wits": 88,
+    "politics": 87,
+    "trait": "fame",
+    "home": "xiapi"
+  },
+  {
+    "id": "handang",
+    "name": "韩当",
+    "lead": 72,
+    "might": 61,
+    "wits": 58,
+    "politics": 42,
+    "trait": "righteous",
+    "home": "wujun"
+  },
+  {
+    "id": "jiangqin",
+    "name": "蒋钦",
+    "lead": 70,
+    "might": 72,
+    "wits": 60,
+    "politics": 46,
+    "trait": "righteous",
+    "home": "lujiang"
+  },
+  {
+    "id": "dingfeng",
+    "name": "丁奉",
+    "lead": 70,
+    "might": 73,
+    "wits": 66,
+    "politics": 50,
+    "trait": "righteous",
+    "home": "lujiang"
+  },
+  {
+    "id": "xusheng",
+    "name": "徐盛",
+    "lead": 73,
+    "might": 68,
+    "wits": 62,
+    "politics": 48,
+    "trait": "righteous",
+    "home": "wujun"
+  },
+  {
+    "id": "zhuran",
+    "name": "朱然",
+    "lead": 66,
+    "might": 72,
+    "wits": 68,
+    "politics": 52,
+    "trait": "righteous",
+    "home": "wujun"
+  },
+  {
+    "id": "zhuhuan",
+    "name": "朱桓",
+    "lead": 64,
+    "might": 62,
+    "wits": 66,
+    "politics": 50,
+    "trait": "righteous",
+    "home": "wujun"
+  },
+  {
+    "id": "panzhang",
+    "name": "潘璋",
+    "lead": 66,
+    "might": 60,
+    "wits": 54,
+    "politics": 40,
+    "trait": "greedy",
+    "home": "wujun"
+  },
+  {
+    "id": "zhugejin",
+    "name": "诸葛瑾",
+    "lead": 58,
+    "might": 36,
+    "wits": 73,
+    "politics": 71,
+    "trait": "righteous",
+    "home": "wujun"
+  },
+  {
+    "id": "zhanghong",
+    "name": "张纮",
+    "lead": 52,
+    "might": 26,
+    "wits": 69,
+    "politics": 67,
+    "trait": "fame",
+    "home": "xiapi"
+  },
+  {
+    "id": "guyong",
+    "name": "顾雍",
+    "lead": 50,
+    "might": 24,
+    "wits": 65,
+    "politics": 63,
+    "trait": "righteous",
+    "home": "wujun"
+  },
+  {
+    "id": "buzhi",
+    "name": "步骘",
+    "lead": 56,
+    "might": 34,
+    "wits": 61,
+    "politics": 72,
+    "trait": "righteous",
+    "home": "wujun"
+  },
+  {
+    "id": "heqi",
+    "name": "贺齐",
+    "lead": 72,
+    "might": 72,
+    "wits": 64,
+    "politics": 50,
+    "trait": "righteous",
+    "home": "kuaiji"
+  },
+  {
+    "id": "quanrong",
+    "name": "全琮",
+    "lead": 70,
+    "might": 72,
+    "wits": 66,
+    "politics": 54,
+    "trait": "righteous",
+    "home": "wujun"
+  },
+  {
+    "id": "sunshao",
+    "name": "孙韶",
+    "lead": 66,
+    "might": 70,
+    "wits": 58,
+    "politics": 46,
+    "trait": "fierce",
+    "home": "wujun"
+  },
+  {
+    "id": "sunshangxiang",
+    "name": "孙尚香",
+    "lead": 46,
+    "might": 58,
+    "wits": 40,
+    "politics": 32,
+    "trait": "fierce",
+    "home": "wujun"
+  },
+  {
+    "id": "lvdai",
+    "name": "吕岱",
+    "lead": 54,
+    "might": 52,
+    "wits": 58,
+    "politics": 50,
+    "trait": "righteous",
+    "home": "lujiang"
+  },
+  {
+    "id": "shixie",
+    "name": "士燮",
+    "lead": 50,
+    "might": 44,
+    "wits": 56,
+    "politics": 58,
+    "trait": "fame",
+    "home": "kuaiji"
+  },
+  {
+    "id": "shenpei",
+    "name": "审配",
+    "lead": 66,
+    "might": 50,
+    "wits": 86,
+    "politics": 76,
+    "trait": "righteous",
+    "home": "yecheng"
+  },
+  {
+    "id": "xuyou",
+    "name": "许攸",
+    "lead": 52,
+    "might": 30,
+    "wits": 84,
+    "politics": 68,
+    "trait": "greedy",
+    "home": "yecheng"
+  },
+  {
+    "id": "gaolan",
+    "name": "高览",
+    "lead": 72,
+    "might": 84,
+    "wits": 50,
+    "politics": 30,
+    "trait": "fierce",
+    "home": "yecheng"
+  },
+  {
+    "id": "xunchen",
+    "name": "荀谌",
+    "lead": 50,
+    "might": 28,
+    "wits": 82,
+    "politics": 76,
+    "trait": "fame",
+    "home": "yecheng"
+  },
+  {
+    "id": "yuantan",
+    "name": "袁谭",
+    "lead": 64,
+    "might": 66,
+    "wits": 54,
+    "politics": 46,
+    "trait": "fierce",
+    "home": "pingyuan"
+  },
+  {
+    "id": "yuanshang",
+    "name": "袁尚",
+    "lead": 60,
+    "might": 62,
+    "wits": 58,
+    "politics": 52,
+    "trait": "fame",
+    "home": "yecheng"
+  },
+  {
+    "id": "yuanxi",
+    "name": "袁熙",
+    "lead": 58,
+    "might": 60,
+    "wits": 52,
+    "politics": 46,
+    "trait": "fame",
+    "home": "beiping"
+  },
+  {
+    "id": "gaogan",
+    "name": "高干",
+    "lead": 70,
+    "might": 68,
+    "wits": 64,
+    "politics": 52,
+    "trait": "fame",
+    "home": "jinyang"
+  },
+  {
+    "id": "fengji",
+    "name": "逢纪",
+    "lead": 52,
+    "might": 30,
+    "wits": 70,
+    "politics": 68,
+    "trait": "greedy",
+    "home": "yecheng"
+  },
+  {
+    "id": "guotu",
+    "name": "郭图",
+    "lead": 48,
+    "might": 28,
+    "wits": 73,
+    "politics": 70,
+    "trait": "greedy",
+    "home": "yecheng"
+  },
+  {
+    "id": "chunyuqiong",
+    "name": "淳于琼",
+    "lead": 64,
+    "might": 70,
+    "wits": 44,
+    "politics": 36,
+    "trait": "greedy",
+    "home": "yecheng"
+  },
+  {
+    "id": "lvkuang",
+    "name": "吕旷",
+    "lead": 48,
+    "might": 54,
+    "wits": 40,
+    "politics": 32,
+    "trait": "greedy",
+    "home": "pingyuan"
+  },
+  {
+    "id": "jiling",
+    "name": "纪灵",
+    "lead": 70,
+    "might": 84,
+    "wits": 52,
+    "politics": 36,
+    "trait": "fierce",
+    "home": "shouchun"
+  },
+  {
+    "id": "zhangxun",
+    "name": "张勋",
+    "lead": 66,
+    "might": 68,
+    "wits": 54,
+    "politics": 42,
+    "trait": "fame",
+    "home": "shouchun"
+  },
+  {
+    "id": "qiaorui",
+    "name": "桥蕤",
+    "lead": 60,
+    "might": 66,
+    "wits": 46,
+    "politics": 38,
+    "trait": "greedy",
+    "home": "shouchun"
+  },
+  {
+    "id": "leibo",
+    "name": "雷薄",
+    "lead": 56,
+    "might": 62,
+    "wits": 42,
+    "politics": 32,
+    "trait": "greedy",
+    "home": "lujiang"
+  },
+  {
+    "id": "chenlan",
+    "name": "陈兰",
+    "lead": 54,
+    "might": 60,
+    "wits": 40,
+    "politics": 30,
+    "trait": "greedy",
+    "home": "lujiang"
+  },
+  {
+    "id": "yanxiang",
+    "name": "阎象",
+    "lead": 44,
+    "might": 26,
+    "wits": 66,
+    "politics": 70,
+    "trait": "righteous",
+    "home": "shouchun"
+  },
+  {
+    "id": "yanghong",
+    "name": "杨弘",
+    "lead": 44,
+    "might": 30,
+    "wits": 56,
+    "politics": 52,
+    "trait": "greedy",
+    "home": "shouchun"
+  },
+  {
+    "id": "kuailiang",
+    "name": "蒯良",
+    "lead": 54,
+    "might": 30,
+    "wits": 86,
+    "politics": 80,
+    "trait": "righteous",
+    "home": "xiangyang"
+  },
+  {
+    "id": "wenpin",
+    "name": "文聘",
+    "lead": 80,
+    "might": 84,
+    "wits": 62,
+    "politics": 50,
+    "trait": "righteous",
+    "home": "jiangling"
+  },
+  {
+    "id": "liubiao",
+    "name": "刘表",
+    "lead": 66,
+    "might": 54,
+    "wits": 70,
+    "politics": 64,
+    "trait": "fame",
+    "home": "xiangyang"
+  },
+  {
+    "id": "kuaiyue",
+    "name": "蒯越",
+    "lead": 56,
+    "might": 34,
+    "wits": 62,
+    "politics": 60,
+    "trait": "greedy",
+    "home": "xiangyang"
+  },
+  {
+    "id": "caimao",
+    "name": "蔡瑁",
+    "lead": 62,
+    "might": 64,
+    "wits": 60,
+    "politics": 56,
+    "trait": "greedy",
+    "home": "xiangyang"
+  },
+  {
+    "id": "zhangyun",
+    "name": "张允",
+    "lead": 58,
+    "might": 62,
+    "wits": 52,
+    "politics": 48,
+    "trait": "greedy",
+    "home": "xiangyang"
+  },
+  {
+    "id": "huangzu",
+    "name": "黄祖",
+    "lead": 66,
+    "might": 70,
+    "wits": 50,
+    "politics": 40,
+    "trait": "fierce",
+    "home": "jiangxia"
+  },
+  {
+    "id": "wangwei",
+    "name": "王威",
+    "lead": 60,
+    "might": 66,
+    "wits": 48,
+    "politics": 40,
+    "trait": "righteous",
+    "home": "xiangyang"
+  },
+  {
+    "id": "liuqi",
+    "name": "刘琦",
+    "lead": 58,
+    "might": 54,
+    "wits": 64,
+    "politics": 62,
+    "trait": "righteous",
+    "home": "jiangling"
+  },
+  {
+    "id": "liucong",
+    "name": "刘琮",
+    "lead": 40,
+    "might": 38,
+    "wits": 50,
+    "politics": 56,
+    "trait": "fame",
+    "home": "xiangyang"
+  },
+  {
+    "id": "zhangren",
+    "name": "张任",
+    "lead": 84,
+    "might": 86,
+    "wits": 76,
+    "politics": 50,
+    "trait": "righteous",
+    "home": "chengdu"
+  },
+  {
+    "id": "zhangsong",
+    "name": "张松",
+    "lead": 44,
+    "might": 24,
+    "wits": 84,
+    "politics": 70,
+    "trait": "greedy",
+    "home": "chengdu"
+  },
+  {
+    "id": "zhengdu",
+    "name": "郑度",
+    "lead": 50,
+    "might": 30,
+    "wits": 73,
+    "politics": 68,
+    "trait": "righteous",
+    "home": "chengdu"
+  },
+  {
+    "id": "liuxun",
+    "name": "刘循",
+    "lead": 66,
+    "might": 68,
+    "wits": 58,
+    "politics": 46,
+    "trait": "righteous",
+    "home": "chengdu"
+  },
+  {
+    "id": "leitong",
+    "name": "雷铜",
+    "lead": 64,
+    "might": 72,
+    "wits": 48,
+    "politics": 36,
+    "trait": "fierce",
+    "home": "jiangzhou"
+  },
+  {
+    "id": "wulan",
+    "name": "吴兰",
+    "lead": 62,
+    "might": 70,
+    "wits": 46,
+    "politics": 34,
+    "trait": "fierce",
+    "home": "jiangzhou"
+  },
+  {
+    "id": "lengbao",
+    "name": "冷苞",
+    "lead": 60,
+    "might": 68,
+    "wits": 44,
+    "politics": 32,
+    "trait": "fierce",
+    "home": "jiangzhou"
+  },
+  {
+    "id": "dengxian",
+    "name": "邓贤",
+    "lead": 58,
+    "might": 66,
+    "wits": 48,
+    "politics": 36,
+    "trait": "greedy",
+    "home": "jiangzhou"
+  },
+  {
+    "id": "feiguan",
+    "name": "费观",
+    "lead": 56,
+    "might": 48,
+    "wits": 66,
+    "politics": 64,
+    "trait": "righteous",
+    "home": "jiangzhou"
+  },
+  {
+    "id": "yanghuai",
+    "name": "杨怀",
+    "lead": 60,
+    "might": 64,
+    "wits": 50,
+    "politics": 40,
+    "trait": "greedy",
+    "home": "yongan"
+  },
+  {
+    "id": "liuzhang",
+    "name": "刘璋",
+    "lead": 50,
+    "might": 44,
+    "wits": 56,
+    "politics": 66,
+    "trait": "fame",
+    "home": "chengdu"
+  },
+  {
+    "id": "mateng",
+    "name": "马腾",
+    "lead": 80,
+    "might": 84,
+    "wits": 60,
+    "politics": 54,
+    "trait": "righteous",
+    "home": "wuwei"
+  },
+  {
+    "id": "hansui",
+    "name": "韩遂",
+    "lead": 76,
+    "might": 80,
+    "wits": 62,
+    "politics": 50,
+    "trait": "greedy",
+    "home": "anding"
+  },
+  {
+    "id": "maxiu",
+    "name": "马休",
+    "lead": 62,
+    "might": 68,
+    "wits": 46,
+    "politics": 38,
+    "trait": "righteous",
+    "home": "wuwei"
+  },
+  {
+    "id": "matie",
+    "name": "马铁",
+    "lead": 60,
+    "might": 66,
+    "wits": 44,
+    "politics": 36,
+    "trait": "righteous",
+    "home": "wuwei"
+  },
+  {
+    "id": "chengyi",
+    "name": "成宜",
+    "lead": 58,
+    "might": 66,
+    "wits": 42,
+    "politics": 32,
+    "trait": "fierce",
+    "home": "anding"
+  },
+  {
+    "id": "yangqiu",
+    "name": "杨秋",
+    "lead": 56,
+    "might": 64,
+    "wits": 46,
+    "politics": 38,
+    "trait": "greedy",
+    "home": "anding"
+  },
+  {
+    "id": "houxuan",
+    "name": "侯选",
+    "lead": 48,
+    "might": 54,
+    "wits": 42,
+    "politics": 34,
+    "trait": "greedy",
+    "home": "anding"
+  },
+  {
+    "id": "chendeng",
+    "name": "陈登",
+    "lead": 70,
+    "might": 56,
+    "wits": 84,
+    "politics": 80,
+    "trait": "greedy",
+    "home": "xiapi"
+  },
+  {
+    "id": "houcheng",
+    "name": "侯成",
+    "lead": 60,
+    "might": 66,
+    "wits": 46,
+    "politics": 36,
+    "trait": "greedy",
+    "home": "xiapi"
+  },
+  {
+    "id": "weixu",
+    "name": "魏续",
+    "lead": 58,
+    "might": 64,
+    "wits": 42,
+    "politics": 32,
+    "trait": "greedy",
+    "home": "xiapi"
+  },
+  {
+    "id": "songxian",
+    "name": "宋宪",
+    "lead": 58,
+    "might": 66,
+    "wits": 40,
+    "politics": 30,
+    "trait": "greedy",
+    "home": "xiapi"
+  },
+  {
+    "id": "chengui",
+    "name": "陈珪",
+    "lead": 50,
+    "might": 28,
+    "wits": 56,
+    "politics": 56,
+    "trait": "greedy",
+    "home": "xiapi"
+  },
+  {
+    "id": "dongzhuo",
+    "name": "董卓",
+    "lead": 80,
+    "might": 82,
+    "wits": 58,
+    "politics": 40,
+    "trait": "greedy",
+    "home": "changan"
+  },
+  {
+    "id": "liru",
+    "name": "李儒",
+    "lead": 50,
+    "might": 30,
+    "wits": 88,
+    "politics": 70,
+    "trait": "greedy",
+    "home": "changan"
+  },
+  {
+    "id": "huaxiong",
+    "name": "华雄",
+    "lead": 66,
+    "might": 87,
+    "wits": 36,
+    "politics": 24,
+    "trait": "fierce",
+    "home": "changan"
+  },
+  {
+    "id": "gongsunzan",
+    "name": "公孙瓒",
+    "lead": 84,
+    "might": 86,
+    "wits": 58,
+    "politics": 46,
+    "trait": "fame",
+    "home": "beiping"
+  },
+  {
+    "id": "huangfusong",
+    "name": "皇甫嵩",
+    "lead": 86,
+    "might": 80,
+    "wits": 72,
+    "politics": 58,
+    "trait": "righteous",
+    "home": "anding"
+  },
+  {
+    "id": "lijue",
+    "name": "李傕",
+    "lead": 66,
+    "might": 71,
+    "wits": 50,
+    "politics": 30,
+    "trait": "fierce",
+    "home": "changan"
+  },
+  {
+    "id": "guosi",
+    "name": "郭汜",
+    "lead": 62,
+    "might": 69,
+    "wits": 46,
+    "politics": 28,
+    "trait": "fierce",
+    "home": "changan"
+  },
+  {
+    "id": "zhanglu",
+    "name": "张鲁",
+    "lead": 60,
+    "might": 50,
+    "wits": 70,
+    "politics": 68,
+    "trait": "fame",
+    "home": "hanzhong"
+  },
+  {
+    "id": "kongrong",
+    "name": "孔融",
+    "lead": 48,
+    "might": 30,
+    "wits": 72,
+    "politics": 67,
+    "trait": "fame",
+    "home": "beihai"
+  },
+  {
+    "id": "taoqian",
+    "name": "陶谦",
+    "lead": 56,
+    "might": 44,
+    "wits": 64,
+    "politics": 72,
+    "trait": "righteous",
+    "home": "xiapi"
+  },
+  {
+    "id": "liuyan",
+    "name": "刘焉",
+    "lead": 58,
+    "might": 50,
+    "wits": 64,
+    "politics": 72,
+    "trait": "fame",
+    "home": "jiangzhou"
+  },
+  {
+    "id": "zhangjiao",
+    "name": "张角",
+    "lead": 60,
+    "might": 40,
+    "wits": 65,
+    "politics": 50,
+    "trait": "fame",
+    "home": "pingyuan"
+  },
+  {
+    "id": "zhujun",
+    "name": "朱儁",
+    "lead": 63,
+    "might": 61,
+    "wits": 70,
+    "politics": 54,
+    "trait": "righteous",
+    "home": "kuaiji"
+  },
+  {
+    "id": "dingyuan",
+    "name": "丁原",
+    "lead": 70,
+    "might": 72,
+    "wits": 58,
+    "politics": 48,
+    "trait": "righteous",
+    "home": "jinyang"
+  },
+  {
+    "id": "wangyun",
+    "name": "王允",
+    "lead": 46,
+    "might": 24,
+    "wits": 72,
+    "politics": 70,
+    "trait": "righteous",
+    "home": "changan"
+  },
+  {
+    "id": "hejin",
+    "name": "何进",
+    "lead": 48,
+    "might": 42,
+    "wits": 54,
+    "politics": 60,
+    "trait": "fame",
+    "home": "luoyang"
+  },
+  {
+    "id": "dianwei",
+    "name": "典韦",
+    "lead": 68,
+    "might": 95,
+    "wits": 34,
+    "politics": 22,
+    "trait": "fierce",
+    "home": "chenliu"
+  },
+  {
+    "id": "yuanshu",
+    "name": "袁术",
+    "lead": 62,
+    "might": 55,
+    "wits": 58,
+    "politics": 66,
+    "trait": "fame",
+    "home": "wancheng"
+  }
+]

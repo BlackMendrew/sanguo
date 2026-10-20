@@ -1,0 +1,101 @@
+[
+  {
+    "id": "player",
+    "name": "我方",
+    "color": "#2e86c1",
+    "traits": {
+      "aggressive": 0.5,
+      "expand": 0.5,
+      "fearStrong": 0.5,
+      "betray": 0
+    }
+  },
+  {
+    "id": "caocao",
+    "name": "曹操",
+    "color": "#c0392b",
+    "traits": {
+      "aggressive": 0.8,
+      "expand": 0.75,
+      "fearStrong": 0.5,
+      "betray": 0.45
+    }
+  },
+  {
+    "id": "lvbu",
+    "name": "吕布",
+    "color": "#8e44ad",
+    "traits": {
+      "aggressive": 0.95,
+      "expand": 0.6,
+      "fearStrong": 0.2,
+      "betray": 0.9
+    }
+  },
+  {
+    "id": "yuanshao",
+    "name": "袁绍",
+    "color": "#b9770e",
+    "traits": {
+      "aggressive": 0.6,
+      "expand": 0.8,
+      "fearStrong": 0.45,
+      "betray": 0.4
+    }
+  },
+  {
+    "id": "sunce",
+    "name": "孙策",
+    "color": "#1e8449",
+    "traits": {
+      "aggressive": 0.9,
+      "expand": 0.85,
+      "fearStrong": 0.25,
+      "betray": 0.35
+    }
+  },
+  {
+    "id": "liubiao",
+    "name": "刘表",
+    "color": "#6c8ebf",
+    "traits": {
+      "aggressive": 0.3,
+      "expand": 0.35,
+      "fearStrong": 0.8,
+      "betray": 0.25
+    }
+  },
+  {
+    "id": "liuzhang",
+    "name": "刘璋",
+    "color": "#7d6608",
+    "traits": {
+      "aggressive": 0.2,
+      "expand": 0.25,
+      "fearStrong": 0.85,
+      "betray": 0.3
+    }
+  },
+  {
+    "id": "mateng",
+    "name": "马腾",
+    "color": "#a04000",
+    "traits": {
+      "aggressive": 0.7,
+      "expand": 0.6,
+      "fearStrong": 0.35,
+      "betray": 0.3
+    }
+  },
+  {
+    "id": "yuanshu",
+    "name": "袁术",
+    "color": "#7b241c",
+    "traits": {
+      "aggressive": 0.85,
+      "expand": 0.7,
+      "fearStrong": 0.4,
+      "betray": 0.85
+    }
+  }
+]
